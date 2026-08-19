@@ -1,0 +1,23 @@
+.title {
+  color: blue;
+  text-transform: capitalize;
+}
+
+.quotes-wrapper {
+  /* display: flex; */
+}
+
+.quote-item {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.quote {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.author {
+  font-weight: 900;
+}

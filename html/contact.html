@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1 id="title">Contact</h1>
+    <div id="flexWrapper" class="flex-wrapper">
+      <div class="flex-child flex-child-and-parent">
+        <div class="flex-grandchild">A</div>
+        <div class="flex-grandchild-middle">B</div>
+        <div class="flex-grandchild flex-grandchild-right">C</div>
+      </div>
+      <div class="flex-child">
+        <div>contact form</div>
+        <div id="form" class="form">
+          <input
+            id="firstName"
+            type="text"
+            class="text-input"
+            placeholder="First name"
+          />
+          <input
+            id="lastName"
+            type="text"
+            class="text-input"
+            placeholder="Last name"
+          />
+          <input type="file" id="file" class="file-input" />
+          <input type="radio" id="radio" />
+
+          <button id="submitButton">Submit</button>
+        </div>
+      </div>
+      <div class="flex-child"></div>
+    </div>
+    <script src="../js/contact.js"></script>
+  </body>
+</html>

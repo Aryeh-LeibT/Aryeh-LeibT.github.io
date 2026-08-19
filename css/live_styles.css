@@ -1,0 +1,16 @@
+.title {
+  color: blue;
+}
+
+.navbar-item {
+  cursor: pointer;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.selected-navbar-item {
+  color: red;
+  pointer-events: none;
+  padding: 3px;
+  border-bottom: 2px solid black;
+}
