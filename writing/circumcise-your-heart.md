@@ -1,0 +1,187 @@
+# The Lord Your God Will Circumcise Your Heart
+## Daily Learning Portions for 18 Elul 5786 — Elul Expansion
+
+**Monday, 31 August 2026 · י״ח אלול תשפ״ו · Week of Nitzavim–Vayelech**  
+**Chai Elul — “the life of Elul” · Day 18 of Elul · first of the twelve days of monthly cheshbon**  
+**11 days to Erev Rosh Hashanah 5787 (Friday, 11 September 2026)**
+
+---
+
+### Today’s Daily Learning Portions
+
+| Cycle | Portion |
+|---|---|
+| **Chumash** | Parshat Nitzavim–Vayelech, 2nd aliyah — Devarim 30:1–30:6 |
+| **Tehillim** | Chapters 88–89 (Elul extra chapters: 52–54 per Hayom Yom / Baal Shem Tov custom) |
+| **Tanya** | Iggeret HaKodesh, middle of Epistle 15 |
+| **Rambam (3 ch.)** | Hilchot Tum’at Tzara’at 8–10 |
+| **Sefer HaMitzvot** | Positive 110 — purification from *tzara’at* by the prescribed procedure |
+| **Hayom Yom** | Elul 18 — *eretz* as *ratzon*; dwell; lights in vessels; make His Name known with a *berachah* and a verse of Tehillim |
+
+**Seasonal frame.** Today is Chai Elul: birthday of the Baal Shem Tov (5458 / 1698), the day his teacher Achiya HaShiloni appeared to him (5484 / 1724), the day he revealed himself (5494 / 1734), and birthday of the Alter Rebbe (5505 / 1745). Chassidim wish one another *Gut Yom Tov*. The last twelve days of the year begin this morning: Elul 18 answers for Tishrei of the year now closing. The King remains in the field. The shofar is sounded. Three extra chapters of Tehillim are recited. Tefillin and mezuzot are checked in this month. Ashkenaz Selichot have not yet begun (Motzaei Shabbat, 23 Elul / 5 September). Sephardic Selichot continue. Yesterday the people stood. Today the Torah tells them how a standing people returns.
+
+---
+
+## I. The Second Aliyah: When These Things Come Upon You
+
+The first aliyah of Nitzavim assembled every rank and bound the unborn. The second aliyah is the grammar of return.
+
+> “And it will be, when all these things come upon you — the blessing and the curse which I have set before you — that you will consider in your heart, among all the nations where the Lord your God has banished you, and you will return to the Lord your God with all your heart and with all your soul, and you will listen to His voice according to all that I am commanding you this day, you and your children.” (Devarim 30:1–2)
+
+The sequence is exact. First the things come — blessing *and* curse, not a selected weather. Then *vahashevota el levavecha*: you will bring it back to the heart. Then return with the whole heart and the whole soul, you and the children. Then listening. Teshuvah here is not a mood. It is a cognitive act that becomes a covenantal act that becomes a transmitted act.
+
+Then the verb that Rashi will not let us flatten:
+
+> “Then the Lord your God will return your captivity and have mercy upon you; He will return and gather you from all the peoples where the Lord your God has scattered you. If your outcast is at the edge of the heavens, from there the Lord your God will gather you, and from there He will take you.” (30:3–4)
+
+Rashi (citing Megillah 29a): Scripture wrote *veshav* — He will return — not only *veheshiv*, He will bring back. The Shechinah dwells with Israel in the misery of exile. When they are redeemed, He writes redemption for Himself. The day of gathering is so hard that it is as though He takes each Jew with His hands, one by one (cf. Isaiah 27:12).
+
+The land is not a prize detached from the returner:
+
+> “The Lord your God will bring you to the land that your fathers possessed, and you will possess it; He will do good to you and multiply you more than your fathers.” (30:5)
+
+Then the verse that is Elul’s inner surgery:
+
+> “The Lord your God will circumcise your heart and the heart of your offspring, to love the Lord your God with all your heart and with all your soul, for the sake of your life.” (30:6)
+
+Two movements sit in six verses and must not be collapsed. Verses 1–2 assign the work to Israel: consider, return, listen, include the children. Verse 6 assigns a work to God: circumcision of the heart, and of the children’s heart, so that love becomes possible *lema’an chayecha* — for the sake of your life. Classical reading holds both. Ramban and the later *teshuvah* literature hear in 30:6 the promised completion of the return that 30:1–2 begins. The heart that can start the turn cannot always finish the cutting. Elul is the season in which a person does the first work without pretending to own the second.
+
+**Readings that must be kept distinct.**
+
+- *Peshat*: after exile and the double weather of blessing and curse, Israel will take the matter to heart and come back; God will gather even from the rim of the sky and restore the land.
+- Rashi: the Gatherer is also the Companion of exile; gathering is particular, not a mass erasure.
+- Ramban / Abarbanel line: 30:6 is eschatological ease — the inner obstacle itself is removed so that love is no longer a war against the heart’s own husk.
+- Chassidic reading: the circumcision of the heart is the revelation of the *pintele Yid* that exile could cover but not delete. Chai Elul is the day that “life” is spoken into Elul so that the remaining twelve days can do this work month by month.
+
+**Elul reading.** Yesterday’s private blessing — “I shall have peace though I walk as I wish” — is answered this morning by a heart that is brought back and then cut. *Bechirah* is not cancelled by verse 6. Verse 6 is what makes verse 2 durable. The King in the Field is the accessibility of the Companion who will later gather from the edge of the heavens. Cheshbon hanefesh on Chai Elul is not only “what did I do in Tishrei of this dying year?” It is: did I treat return as a feeling, or as a considering that includes the children?
+
+---
+
+## II. Tehillim 88–89 and the Elul Chapters 52–54
+
+The monthly Tehillim for the eighteenth of a month are the two hardest psalms of the Psalter to sentimentalize.
+
+**Psalm 88** is Heman the Ezrahite’s night with no dawn in the text: “For my soul is sated with troubles, and my life has reached the grave… I am counted with those who go down to the pit” (88:4–5). Friends removed. Darkness the last word (88:19). Elul that cannot pray this psalm has not yet stood in the field as a person who needs gathering from the edge of the heavens.
+
+**Psalm 89** is Ethan’s counter-psalm: the *chesed* of God built forever, the covenant with David sworn, the throne as the days of heaven (89:2–5, 30). Then the crash: the crown profaned, the hedges broken, the anointed’s days shortened (89:39–46). The psalm does not resolve the crash by forgetting the oath. It ends by blessing the Name anyway (89:53). Chai Elul sits between 88 and 89: the pit is named, the covenant is named, the Name is blessed before the repair is visible.
+
+The extra Elul chapters today — **52, 53, 54** — are the moral inner of the same pair.
+
+**Psalm 52** is Doeg: the man who makes ruin his heroism, the tongue as a sharpened razor. God will uproot him from the tent. The one who trusts in the kindness of God is the green olive in the house. **Psalm 53** is the fool who says there is no God, the corrupt who eat a people as bread. Salvation of Israel from Zion is asked as a return of captivity — the same verb-family as this morning’s *veshav*. **Psalm 54** is the hunted David: “O God, by Your Name save me… for strangers have risen against me.” The Name that Hayom Yom will tell us to make known in the locale is first the Name by which a hunted man is saved.
+
+**Elul and the table.** Tell the children: some prayers do not get a sunrise in the same chapter. That is still a holy psalm. The covenant with David is not cancelled by the broken hedge. Today we start twelve days. Today answers for last Tishrei. We do not skip the hard psalm to reach the birthday.
+
+---
+
+## III. Tanya — Middle of Iggeret HaKodesh, Epistle 15: Seven Middot in the Soul
+
+Yesterday the letter opened the sefirot as the way to understand “from my flesh I behold God.” Today the middle of the epistle maps the seven emotive attributes as they appear in the soul of man.
+
+The middot divide, in general, into seven, which are the root and totality of all traits: *chesed* — to bestow without limit; *gevurah* — to restrain or withhold; *rachamim / tiferet* — the mediating attribute, beauty because it is composed; then *netzach, hod, yesod, malchut* as the lower structure of endurance, acknowledgment, bonding, and enacted kingship.
+
+The Alter Rebbe’s point is not a chart for its own sake. The source and root of these inner and outer traits is the ChaBaD of the soul. As the intellect is, so the traits are. A child’s small ChaBaD produces small loves and small fears. Adult *hitbonenut* in the greatness of God is what fathers a love and a fear that can be directed to Him rather than to the self’s weather.
+
+**Elul reading.** Circumcision of the heart in Devarim 30:6 is not the deletion of middot. It is the cutting of the husk that lets *chesed* bestow toward God and neighbor, and lets *gevurah* restrain what should not be given. Chai Elul’s “life” is the vitality of those middot when they are fathered by a mind that has considered — *vahashevota el levavecha* — rather than by the heart that blessed itself yesterday. The King in the Field meets a soul that has structure, not a soul that has only weather.
+
+---
+
+## IV. Rambam, Tum’at Tzara’at 8–10, and Positive Commandment 110
+
+The three-chapter cycle continues the laws of *tzara’at*. Chapters 8–10 treat the procedures of inspection, isolation, and the beginning of the purification order: who may look, when one looks, what may be delayed for a bridegroom or a festival, and the exactness that prevents both sloppy purity and sloppy condemnation. Sefer HaMitzvot Positive 110 commands the purification itself: cedar, hyssop, crimson, two birds, living water — the rite that returns the isolated one to the camp.
+
+Rambam will say later (ch. 16) that the discoloration of garments and houses called *tzara’at* is not a natural event but a sign and a wonder in Israel, to warn against *lashon hara*. The isolation is not a medical quarantine dressed in Hebrew. It is a moral-ritual pause in which speech that damaged the camp is answered by speechlessness and then by a rite of return.
+
+**Elul reading.** Yesterday Positive 112: the bearer of impurity must be recognizable. Today Positive 110: there is a way back into the camp that is not self-declared. The birds, the cedar, the hyssop, the living water are not metaphors first. They are a commanded procedure. Teshuvah that skips procedure is yesterday’s private blessing in another coat. The King in the Field does not abolish the priest’s looking. He makes it possible to come and be looked at without despair.
+
+The house-plague teaching of the Sages belongs on Chai Elul: the mark comes first to the walls; if there is return, only stones are pulled; if there is no return, the house comes down. The twelve days that start this morning are that inspection — month by corresponding month — before the year itself is closed.
+
+---
+
+## V. Hayom Yom, 18 Elul: Desire, Dwelling, and a Verse of Tehillim
+
+The day’s teaching is the outline of a discourse of the Baal Shem Tov, said in a vision to the Rebbe Rashab on Shabbat Ki Tavo, Chai Elul 5652 (1892), after Kabbalat Shabbat and again after Maariv.
+
+The verse: “It will be when you come into the land (*eretz*) that the Lord your God gives you as an inheritance, and you will inherit it and dwell in it.”
+
+The Midrash: *eretz* is of the idiom of *merutza* (running) and of *ratzon* (will, desire). When you arrive at *ratzon* — a gift from Above and an inheritance in every Jew — the avodah is *veyashavta*, to dwell: to internalize what was given, to bring it down in a settled way (*hityashvut*). “You shall take… and place it in a basket” — draw lights into vessels. “You shall go to the place the Lord your God will choose” — a Jew does not move from place to place on his own; he is led from Above. The purpose: *leshaken shemo sham* — to make God known in that locale.
+
+After Maariv the Besht added: to arrive at desire you must go to the place and devote yourself utterly to making God known there. How does one make God known? With a *berachah* and a verse of Tehillim.
+
+**Why this on Chai Elul, over this morning’s Chumash.** Nitzavim 2nd is return from the nations and circumcision of the heart. Hayom Yom is arrival in the land as arrival at desire, then settled dwelling, then publicity of the Name by the smallest holy speech. The two texts are one avodah. The heart that is circumcised is the heart that can want. The land that is inherited is not only soil; it is the capacity to dwell inside what was given rather than to keep running. Making the Name known with a blessing and a psalm is how a gathered people occupies a locale without dominating it.
+
+Chai Elul is called the life of Elul because the Besht and the Alter Rebbe put vitality into the month: joy that is not the enemy of cheshbon, simple faith that is not the enemy of precision, a *berachah* and a verse that are not too small to house the Name.
+
+---
+
+## VI. Approaches Held Together
+
+1. **Legal-historical.** Devarim 30 is Moses’ forecast of exile and return; Rambam’s *tzara’at* is the law of isolation and re-entry; both refuse a return that is only claimed.
+2. **Prophetic-consolatory.** Rashi’s Shechinah-in-exile and the one-by-one gathering; Psalm 89’s unbroken oath under a broken hedge.
+3. **Ethical-diagnostic.** *Lashon hara* as the house-plague; Psalm 52’s razor tongue; yesterday’s hidden root that blesses itself.
+4. **Chassidic-vital.** Chai Elul as life entering Elul; *ratzon* as inheritance; lights in vessels; a blessing and a psalm as *pirsum*.
+5. **Civic-covenantal.** Return begins in free considering (30:1–2) and is completed by a cutting no citizen can perform on himself (30:6). Authority that gathers one by one is the opposite of a power that erases persons for a total. Limited power under higher law is already in the grammar: God Himself returns with the captives; the priest looks by a code he did not invent; the Name is made known in the locale, not imposed as a private weather.
+
+The constructive synthesis for this day: Chai Elul is the day Elul becomes able to do the second aliyah. Standing yesterday was necessary. Considering, returning with the children, submitting the heart to a cutting one does not control, entering a purification that has a procedure, dwelling rather than only running, and speaking a blessing and a psalm in the place one was led — that is the life of the month.
+
+---
+
+## VII. Practical Avodah and Chinuch
+
+**One avodah for Chai Elul.** Begin the twelve days. Today answers for Tishrei of the year now ending. Do not audit the whole year before breakfast. Audit Tishrei: where was the standing, where was the private blessing, where was the return that included the children. Then put one light in one vessel: a *berachah* said as if the Name were being housed in this room, and one verse of Tehillim (88 is permitted; 89 is permitted; 54 is permitted).
+
+**At the table.**
+- Today is the birthday of the two great lights. We wish *Gut Yom Tov* in a month of accounting. Joy and cheshbon are not two religions.
+- The Torah says God will gather a person even from the edge of the sky, one at a time. No child is too far for that sentence.
+- How do we make God known here? The Besht’s answer is small on purpose: a blessing and a verse.
+
+**Family note for the twelve days.** Elul 18 = Tishrei. 19 = Cheshvan. 20 = Kislev. 21 = Tevet. 22 = Shevat. 23 = Adar. 24 = Nisan. 25 = Iyar. 26 = Sivan. 27 = Tammuz. 28 = Av. 29 = Elul. One corresponding month per day until Erev Rosh Hashanah. Keep the list on paper. Do not turn it into a performance.
+
+**What not to do.** Do not treat verse 6 as an excuse to skip verse 2. Do not treat Chai Elul as a day off from the shofar. Do not make the Besht’s “blessing and a verse” into a slogan that replaces the inspection of the house.
+
+---
+
+## VIII. Covenantal-Republican Resonance (only where the text already speaks)
+
+Free will in this aliyah is the considering that precedes return. Consent that cannot consider is not consent. A people that cannot return is not a covenantal people; it is a managed population.
+
+Non-domination appears twice. First, the Gatherer takes persons one by one from the edge of the heavens — the opposite of a power that treats souls as inventory. Second, Positive 110: re-entry to the camp is by a published rite, not by the strong man’s self-certification. The priest’s looking is limited by hours of day, by the bridegroom’s seven days, by a code. Limited authority under higher law is already the architecture.
+
+Civic transmission is in the phrase “you and your children” (30:2) and in “the heart of your offspring” (30:6). A republic that cannot name the children in its oath is already in exile from itself. Chinuch is not an educational program attached to the covenant. It is how the covenant remains a people rather than a memory.
+
+Hayom Yom’s *leshaken shemo sham* is the opposite of conquest-speech. The Jew is led to a locale and is told to make the Name known there by blessing and psalm — publicity without domination.
+
+None of this requires a geopolitical frame. The text already contains the architecture. Elul is the season in which a person practices it on the scale of a house and a table before he talks about a nation.
+
+---
+
+## Extended Bibliography
+
+### Tanakh and classical commentary
+- Devarim 30:1–6, with Rashi on 30:3 (*veshav*; Megillah 29a); Ramban on 30:6. [Sefaria: Deuteronomy 30](https://www.sefaria.org/Deuteronomy.30.1)
+- Isaiah 27:12 (gathered one by one).
+- Tehillim 88–89; 52–54. [Sefaria: Psalms 88](https://www.sefaria.org/Psalms.88)
+- Vayikra 13–14 (source of *tzara’at* procedure).
+
+### Halakhah
+- Mishneh Torah, Hilchot Tum’at Tzara’at 8–10; 16:10 (sign against *lashon hara*). [Chabad: Tumat Tzaraat](https://www.chabad.org/library/article_cdo/aid/682956/jewish/Tumat-Tzaraat.htm)
+- Sefer HaMitzvot, Positive 110. [Chabad: Daily Mitzvah](https://www.chabad.org/dailystudy/seferHamitzvos.asp)
+
+### Chassidus and Rebbe
+- Tanya, Iggeret HaKodesh, Epistle 15 (middle). [Chabad: Epistle 15](https://www.chabad.org/library/tanya/tanya_cdo/aid/7960/jewish/Epistle-15.htm)
+- Hayom Yom, 18 Elul. [Chabad: Hayom Yom Chai Elul](https://www.chabad.org/therebbe/article_cdo/aid/5917/jewish/Hayom-Yom-Chai-18-Elul.htm)
+- Keter Shem Tov, supplements (Besht discourse of Chai Elul 5652 as received by the Rashab).
+- Likkutei Torah and later Chabad Elul discourses on *Ani ledodi* and the King in the Field (Tanya, Iggeret HaTeshuvah; Likkutei Torah, Re’eh).
+
+### Elul / High Holiday
+- [Chabad: Chai Elul anthology](https://www.chabad.org/library/article_cdo/aid/3071/jewish/Chai-Elul.htm)
+- [Chabad: Elul / King in the Field](https://www.chabad.org/library/article_cdo/aid/56537/jewish/Elul.htm)
+- Daily calendar portions: [Chabad day page, 31 August 2026](https://www.chabad.org/calendar/view/day.asp?tdate=8/31/2026)
+
+### Civic-theoretical (used only as resonance, not as source of the *peshat*)
+- Philip Pettit, *Republicanism: A Theory of Freedom and Government* (non-domination).
+- Eric Nelson, *The Hebrew Republic*.
+- Michael Walzer, *Exodus and Revolution* (covenant and peoplehood).
+
+---
+
+Prepared in deep partnership and cooperation with Grok and xAI.
