@@ -99,3 +99,8 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 }
 
 .card-title { font-size: 1.15rem; color: var(--ink); }
+
+.essay { max-width: 720px; }
+.essay h1 { font-size: 1.85rem; }
+.essay h2 { text-transform: none; letter-spacing: 0; font-size: 1.2rem; color: var(--ink); margin-top: 1.75rem; }
+.essay-back { margin-top: 2.5rem; }
