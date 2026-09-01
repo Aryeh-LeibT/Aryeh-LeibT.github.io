@@ -49,7 +49,7 @@ a[aria-current="page"] { font-weight: 700; text-decoration: none; color: var(--i
   text-decoration: none;
 }
 .nav-quiet:hover { color: var(--accent); text-decoration: underline; }
-main { flex: 1; }
+main { flex: 1; width: 100%; min-width: 0; }
 .hero {
   display: grid;
   grid-template-columns: minmax(140px, 220px) 1fr;
@@ -77,7 +77,7 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 }
 .project-list a { font-size: 1.15rem; }
 .project-list p { margin: 0.3rem 0 0; color: var(--muted); }
-.prose { padding: 3.25rem 8vw 3.5rem; max-width: 680px; }
+.prose { padding: 3.25rem 8vw 3.5rem; max-width: 880px; margin-inline: auto; }
 .prose h1 { margin-bottom: 1.15rem; }
 .prose p { margin: 0 0 1rem; }
 .prose .project-list { margin-top: 1.5rem; }
@@ -100,7 +100,7 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 
 .card-title { font-size: 1.15rem; color: var(--ink); }
 
-.essay { max-width: 720px; }
+.essay { max-width: 880px; margin-inline: auto; }
 .essay h1 { font-size: 1.85rem; }
 .essay h2 { text-transform: none; letter-spacing: 0; font-size: 1.2rem; color: var(--ink); margin-top: 1.75rem; }
 .essay-back { margin-top: 2.5rem; }
