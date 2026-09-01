@@ -1,10 +1,10 @@
 :root {
-  --ink: #171717;
-  --muted: #5c5c5c;
-  --line: #e4e4e4;
-  --bg: #f7f6f3;
-  --card: #ffffff;
-  --accent: #1f4e79;
+  --ink: #1a1916;
+  --muted: #5e5a53;
+  --line: #e7e2d8;
+  --bg: #f6f3ec;
+  --card: #fffcf7;
+  --accent: #243f5c;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
@@ -13,9 +13,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.05rem;
   color: var(--ink);
   background: var(--bg);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 .skip {
   position: absolute;
@@ -30,57 +31,76 @@ a[aria-current="page"] { font-weight: 700; text-decoration: none; color: var(--i
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 1.1rem 8vw;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 1.35rem 8vw;
   border-bottom: 1px solid var(--line);
-  background: var(--card);
 }
-.nav-name { color: var(--ink); text-decoration: none; font-weight: 700; letter-spacing: 0.01em; }
-.nav nav { display: flex; gap: 1.15rem; flex-wrap: wrap; }
+.nav-name {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.nav nav { display: flex; gap: 1.35rem; flex-wrap: wrap; align-items: baseline; }
+.nav-quiet {
+  font-size: 0.88rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+.nav-quiet:hover { color: var(--accent); text-decoration: underline; }
 main { flex: 1; }
 .hero {
   display: grid;
-  grid-template-columns: minmax(150px, 240px) 1fr;
-  gap: 2.25rem;
+  grid-template-columns: minmax(140px, 220px) 1fr;
+  gap: 2.5rem;
   align-items: center;
-  padding: 3.25rem 8vw 1.5rem;
-  max-width: 980px;
+  padding: 3.75rem 8vw 1.25rem;
+  max-width: 880px;
 }
 .portrait {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 4px;
   display: block;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
-h1 { margin: 0 0 0.45rem; font-size: 2.15rem; line-height: 1.2; }
-h2 { margin: 0 0 0.8rem; font-size: 1.25rem; }
-.lede { margin: 0 0 1.2rem; color: var(--muted); font-size: 1.15rem; }
-.links { display: flex; gap: 1rem; flex-wrap: wrap; margin: 0; }
-.projects { padding: 1rem 8vw 3rem; max-width: 980px; }
-.project-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.9rem; }
+h1 { margin: 0 0 0.4rem; font-size: 2.35rem; font-weight: 500; line-height: 1.15; }
+h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.lede { margin: 0; color: var(--muted); font-size: 1.2rem; }
+.projects { padding: 2.25rem 8vw 3.5rem; max-width: 880px; }
+.project-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
 .project-list li {
   background: var(--card);
   border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 1rem 1.15rem;
+  border-radius: 2px;
+  padding: 1.15rem 1.25rem;
 }
-.project-list p { margin: 0.35rem 0 0; color: var(--muted); }
-.prose { padding: 3rem 8vw; max-width: 720px; }
-.prose h1 { margin-bottom: 1rem; }
+.project-list a { font-size: 1.15rem; }
+.project-list p { margin: 0.3rem 0 0; color: var(--muted); }
+.prose { padding: 3.25rem 8vw 3.5rem; max-width: 680px; }
+.prose h1 { margin-bottom: 1.15rem; }
+.prose p { margin: 0 0 1rem; }
+.prose .project-list { margin-top: 1.5rem; }
 .contact-list { padding-left: 1.2rem; }
-.contact-list li { margin: 0.4rem 0; }
+.contact-list li { margin: 0.45rem 0; }
 .site-footer {
-  padding: 1rem 8vw 1.5rem;
+  padding: 1.15rem 8vw 1.75rem;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.95rem;
 }
 .site-footer p { margin: 0; }
+.site-footer a { color: var(--muted); }
 @media (max-width: 640px) {
-  .hero { grid-template-columns: 1fr; padding: 2rem 6vw 1rem; }
-  .portrait { max-width: 220px; }
+  .hero { grid-template-columns: 1fr; padding: 2.25rem 6vw 1rem; }
+  .portrait { max-width: 200px; }
   .nav { flex-direction: column; align-items: flex-start; }
   .projects, .prose, .site-footer { padding-left: 6vw; padding-right: 6vw; }
 }
+
+.card-title { font-size: 1.15rem; color: var(--ink); }
+
+.essay { max-width: 720px; }
+.essay h1 { font-size: 1.85rem; }
+.essay h2 { text-transform: none; letter-spacing: 0; font-size: 1.2rem; color: var(--ink); margin-top: 1.75rem; }
+.essay-back { margin-top: 2.5rem; }

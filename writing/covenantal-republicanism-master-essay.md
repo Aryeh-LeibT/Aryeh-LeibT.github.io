@@ -1,0 +1,469 @@
+Covenantal Republicanism — Master Essay
+
+
+
+Aryeh Leib Thorne-Toren
+
+Jerusalem (Pittsburgh roots)
+
+5786 / 2026
+
+
+
+I. The Crossroads
+
+
+
+I write from the intersection of Pittsburgh’s industrial grit and Jerusalem’s spiritual topography. That axis is not a biographical flourish. It is a political claim. The furnaces of the American heartland once forged the arsenal of a free people; the hills of Yerushalayim hold the older memory of a people bound by brit, not by appetite. Both places teach the same hard lesson: a polity that cannot make, keep, and transmit a common thing will not remain free.
+
+
+
+The international order of 2026 is not merely disordered. It is conceptually exhausted. On one side stands liberal contractualism: Lockean and Hobbesian in its foundations, transactional in its instincts, fluent in rights and silent about the character that makes rights durable. It treats political society as a utility-maximizing bargain among unencumbered selves. It is good at generating wealth and protecting negative liberty — freedom from active interference — and poor at cultivating civic virtue, moral stamina, or the willingness to sacrifice across a generation. On the other side stands materialist realism: the measuring of nations by GDP, defense outlays, technological throughput, and demographic volume. It treats the state as a machine. It can count tanks and miss the institutions, memories, and obligations that decide whether a people fractures or endures.
+
+
+
+A third posture — theocratic maximalism — offers no rescue. It mistakes Divine mandate for human coercion and risks the very idolatry of finite power that Devarim 4 forbids: the reduction of the Infinite to an image, a leader, a party, or a state.
+
+
+
+This essay proposes a fourth path, already present in the sources and only waiting to be named with precision: Covenantal Republicanism. It is the synthesis of Orthodox Jewish covenantal jurisprudence — brit, Halakhah, Maimonidean constitutionalism, and Chassidic moral psychology — with the republican tradition that runs from the Hebrew commonwealth through early modern political Hebraism to neo-Roman theories of freedom as non-domination. It argues that Sinai was a constitutional moment; that subjection to Torah is the oldest Western architecture for limiting arbitrary human power; that covenant, not contract, is the form of a people that can last; and that civic virtue is not a civic ornament but the inner work without which institutions rot.
+
+
+
+The claim is not that Orthodox Judaism is “compatible” with republicanism as a courtesy to modernity. The claim is stronger and older. The Hebrew sources supplied European and American republicans with a working model of mixed government, bounded executive power, popular consent under higher law, and liberty understood as non-servitude. Recovering that model is not nostalgia. It is a future-oriented imperative for polities that have forgotten the difference between a deal and a covenant.
+
+
+
+II. Brit, Not Contract
+
+
+
+A contract is commercial, utilitarian, and dissolvable. Two parties trade advantages. When the ledger turns, the bond ends. It has lawyers. It has no memory.
+
+
+
+A covenant — brit — is ontological. Parties bind their identities. They accept mutual responsibility (arvut; kol Yisrael arevim zeh ba-zeh) that outlasts convenience. Daniel J. Elazar, in The Covenant Tradition in Politics, distinguished two Western architectures of power. The statist or hierarchical model, inherited from Roman imperial law and perfected in early modern absolutism, is a pyramid: a sovereign center dictates to a passive periphery. Even parliamentary democracies often keep the pyramid and merely change the occupant of the apex. The covenantal or matrix model, originating in biblical Israel, is a federation of self-governing units bound by a morally serious pact under Divine authority. Power is distributed. Unity does not annihilate the integrity of the parts. Elazar showed that this matrix became the template for Reformed Protestant constitutionalism, Swiss cantonal federalism, and the American founding. Federalism itself is named for foedus — covenant.
+
+
+
+Rabbi Lord Jonathan Sacks drew the moral consequence. A contract constructs an economy or a procedural government. A covenant constructs a community. Contracts traffic in rights, power, and exchange. Covenants traffic in trust, reciprocal obligation, and civic virtue. When a society is governed only by contractual logic, cohesion lasts only as long as interests align. Sacks’s argument in The Home We Build Together and The Dignity of Difference is that modern liberal democracy has progressively reduced political life to contract and then wondered why citizenship feels thin.
+
+
+
+The biblical brit operates on two axes at once. Vertically, it binds the community to God. Horizontally, it binds members to one another. That dual nature is why social obligations can be experienced as sacred duties rather than as optional philanthropy. Brit Sinai is the foundational constitutional moment: a people becomes “a kingdom of priests and a holy nation” by collective acceptance of Torah. The Torah was not imposed as a decree upon slaves. It was received with Na’aseh v’Nishma — “We will do and we will hear” (Shemot 24:7). Consent precedes full comprehension. That sequence is the opposite of the unencumbered self. It is the signature of a people that knows it is already obligated.
+
+
+
+Michael Walzer, in Exodus and Revolution, read the covenantal model as containing the seeds of revolutionary consent: authority is legitimate only when it serves the shared purpose of the community. Robert Cover, in “Nomos and Narrative,” and still more sharply in “Obligation: A Jewish Jurisprudence of the Social Order,” named the structural difference. Western liberal jurisprudence begins with pre-political individuals holding rights and builds a state to protect those entitlements. Jewish jurisprudence begins at Sinai, with a covenanted community standing under incumbent obligation — mitzvah. The individual is metzuvah v’oseh: one who is commanded and acts. Civic engagement is not a hobby of the leisured. It is the normal condition of a commanded life.
+
+
+
+This is why the modern liberal state, standing at the crossroads of secular legalism and religious identity, keeps misreading the Jewish case. Covenant, consent, and res publica are not three rival gods. They are mutually reinforcing. Orthodox theology shows how a particular covenantal identity can coexist with consensual legal structures and still produce a republican sense of duty toward the public thing.
+
+
+
+III. Freedom as Non-Domination
+
+
+
+Philip Pettit’s neo-republicanism is the most exact modern vocabulary for what the Sages already legislated. Freedom is not merely the absence of interference (Isaiah Berlin’s negative liberty). Freedom is non-domination: structural protection against exposure to another’s arbitrary power. Pettit’s image is the slave of a benevolent master. The master may never strike. The slave remains unfree, because the capacity to interfere at will has not been removed.
+
+
+
+The Talmudic axiom is older and sharper. Vayikra 25:55 — “For unto Me the children of Israel are servants; they are My servants whom I brought forth out of the land of Egypt” — is read in Bava Metzia 10a as a constitutional prohibition: “My servants, and not servants to servants.” Because every person is bound to the transcendent Sovereign, any unconstrained human authority claiming absolute obedience is usurpation and, in theological terms, a form of idolatry. Subordination to Divine law is not the opposite of liberty. It is the mechanism that secures emancipation from arbitrary human tyranny.
+
+
+
+The Brisker method gives this distinction a jurisprudence. Rabbi Chaim Soloveitchik of Brisk shifted Talmudic analysis from the harmonizing of texts to the isolation of conceptual categories: gavra, the subjective status and obligation of the person, and cheftza, the objective legal character of the object or the norm. When law is treated as a collection of subjective directives, it remains vulnerable to reinterpretation by whoever holds power. When law is understood as an objective reality — cheftza — it creates a domain that arbitrary will cannot casually rewrite. Covenantal liberty is the systemic shift from arbitrary gavra to immutable cheftza.
+
+
+
+Parshat Re’eh (Devarim 12:29–13:19) names the stealth forms of domination that do not arrive as armies: the false prophet who validates himself by signs; the intimate mesit who uses affection to urge apostasy; the ir ha-nidachat, the city turned from within. These are not only ritual warnings. They are a political taxonomy of how a people loses its agency without a single shot. The Torah’s answer is legal boundary: bal tosif and bal tigra — neither addition nor subtraction. The covenant is insulated from charismatic invention and from cultural fashion.
+
+
+
+The same principle scales to nations. A republic whose critical industries survive only by the grace of a rival is unfree even in peacetime, because the rival retains the capacity to interfere. That is Pettit applied to supply chains, energy corridors, and educational autonomy. It is also the meaning of the 1910 St. Petersburg Rabbinical Conference, where the Rebbe Rashab and Rav Chaim of Brisk refused Tsarist mandates to secularize the cheder and the yeshiva and to place communal registries under Crown Rabbis. The ministry framed the demand as modernization for the Jews’ own good. Republican theory has a name for that: paternalistic domination. Rav Chaim categorized interference in sacred education as a form of coerced spiritual compliance. The Rashab’s reply remains the political theology of non-domination in a single sentence: only our bodies are in exile and subject to earthly governments; our souls and our Torah are not subject to any foreign ruler.
+
+
+
+IV. Anti-Absolutism: Against the Idol of the Exception
+
+
+
+Carl Schmitt asserted that all significant concepts of the modern state are secularized theological concepts, and that the sovereign is he who decides on the Ausnahmezustand — the state of exception. He projected an absolutist image of God onto the state and concluded that law is unstable without an unchecked human sovereign.
+
+
+
+Orthodox Jewish political theology is the counter-thesis. Miguel Vatter, in Living Law, shows how twentieth-century Jewish thought subverts Schmitt’s authoritarian model. Martin Buber’s 1935 critique named the “anarchic soul of theocracy”: the covenant at Sinai established YHWH as Israel’s sole supreme monarch and thereby permanently delegitimized any absolute human ruler. Divine sovereignty does not baptize autocracy. It desacralizes human power. Erik Peterson’s critique of political theology converges here: true monotheism undermines the sacralization of imperial authority. Because God’s authority is absolute, human governance is contingent, procedural, and bounded. No magistrate embodies the Divine. No ruler may rewrite or suspend the covenantal constitution.
+
+
+
+Don Isaac Abarbanel, who watched European courts from the inside and then watched the expulsion from Spain, drew the institutional conclusion in his commentaries on Devarim 17 and I Shmuel 8. Monarchy is not a positive mitzvah. It is a concession to human weakness. Absolute monarchs tend toward tyranny. Republican councils — he pointed to Venice and Florence — achieve more justice and more civic virtue precisely because they refuse to concentrate the public thing in one mortal will.
+
+
+
+Bernard M. Levinson has shown that Deuteronomic law is already constitutionalism: the monarch is subjected to independent judicial and prophetic review and is commanded to write and carry a copy of the Torah so that he remains under the law, not above it (Devarim 17:18–20). When Ahab seized Navot’s vineyard, prophecy asserted the constitution against the crown. The prophetic office is not chaplaincy. It is the original form of judicial review.
+
+
+
+V. The Architecture of Offices
+
+
+
+The most precise rabbinic statement of separated powers is Rabbi Nissim of Gerona, the Ran, in Derashot Ha-Ran, Discourse 11. Devarim 16:18 requires magistrates to judge with mishpat tzedek. Strict Halakhah, however, demands two qualified witnesses, formal warning (hatra’ah), and the exclusion of circumstantial evidence. If a polity relied only on that track, Ran warns, criminals would exploit procedural immunity and men would “eat each other alive” (Avot 3:2).
+
+
+
+Divine Providence therefore established two coordinated jurisdictions.
+
+
+
+The judicial-Torah track — Mishpat Ha-Torah, or mishpat tzedek — belongs to the Sanhedrin and the rabbinic courts. Its telos is metaphysical justice and the drawing down of Shekhinah. It may not relax its standards for social utility.
+
+
+
+The executive-civic track — Mishpat Ha-Melekh, tikkun seder ha-medini, takkanot ha-kahal — belongs to the king, the magistrate, or the elected communal leadership (including sheva tuvei ha-ir). Its telos is civil order: emergency justice when disorder threatens, taxation, defense, civic regulation. The executive may not rewrite the normative contents of Mishpat Ha-Torah. The judiciary does not run the army or the market. That is an early modern check and balance, written in Catalonia in the fourteenth century.
+
+
+
+Saadia Gaon had already distinguished rational laws that reason itself demands for social equilibrium from auditory laws received to elevate the soul. Rashi insisted that Torah, though the metaphysical foundation of the world, still requires structural mechanisms for civil life. The Ran integrates both insights: civil necessity is managed by the executive track; metaphysical truth is preserved by the judicial track.
+
+
+
+Modern scholarship has argued over the scope of the Maimonidean king in Hilkhot Melakhim. Menachem Lorberbaum, in Politics and the Limits of Law, reads Rambam as constructing an autonomous civic-legislative sphere: decrees, taxes, conscription, and even political execution outside ordinary procedure, together with dina de-malkhuta dina. Suzanne Last Stone reads rabbinic law as a constitutional counter-text to state absolutism: the king is an administrative executor charged to “fill the world with righteousness and break the arm of the wicked” (Hilkhot Melakhim 4:9), not a fabricator of norms. Legislative primacy remains with the High Court. The debate itself is republican. Both sides refuse Schmitt. They disagree only about how tightly the executive is bound.
+
+
+
+Biblical and rabbinic governance further distributes power across the Three Crowns — shelosha ketarim — as Sacks and Elazar reconstruct them. Keter Malkhut: executive power, defense, taxation, civic administration. Keter Kehunah: sacramental mediation, Temple service, ritual sanctity. Keter Torah / Nevu’ah: judicial and moral oversight, interpretation of the constitution, uncompromised critique of executive overreach. Early modern Hebraists and American election-day preachers, among them Samuel Cooper in his 1780 Massachusetts sermon, recognized a related tripartite pattern: the chief magistrate or shofet as bounded commander; the Sanhedrin as constitutional interpreter; the kahal or edah as the popular body that ratifies covenants, approves non-mandatory wars, and endorses major appointments.
+
+
+
+Eric Nelson, in The Hebrew Republic, showed how sixteenth- and seventeenth-century theorists — Cunaeus, Selden, Harrington, Milton, and others — read rabbinic literature as a political constitution and, following Abarbanel on I Shmuel 8, treated monarchy as a rejection of God’s sole sovereignty. Nelson also argued that Hebraism, while stripping the title of king from the American executive, smuggled royal prerogative into Article II. Daniel Slate’s counter-reading is decisive for covenantal republican design. The American architects were not installing a disguised monarch. They were drawing on the Hebraic chief magistrate: energetic in defense, forbidden to declare war or levy unsanctioned taxes or alter fundamental law by his own will, and accountable to statute and to a judiciary. Article II is shofet, not Pharaoh.
+
+
+
+A further conceptual clarification, developed from Horayot 13a by contemporary halakhic thinkers including Rabbi Moshe Taragin, distinguishes melekh, the individual monarch, from malkhut, the institutional regime of statehood. “The entire nation is suitable for royalty.” When no individual monarch sits, sovereign civic authority reverts to the body politic. The powers once vested in the king for tikkun seder medini pass to elected officials, municipal councils, and parliamentary assemblies. Rabbi Nahum Rabinovitch and Rabbi Shaul Yisraeli grounded modern democratic authority in da’at ha-am — the consent of the governed — through the classical doctrine of tuvei ha-ir. Representatives chosen by the civic community possess full authority to enact regulations, levy taxes, and administer public welfare. Their warrant is covenantal authorization, not sacred blood.
+
+
+
+This is how Halakhah, without becoming Rawls, already knows popular sovereignty: not as the unencumbered will of atoms, but as the public face of malkhut when malkhut is the people’s.
+
+
+
+VI. The Encumbered Self and the Formation of Citizens
+
+
+
+Michael Sandel’s critique of the Rawlsian “unencumbered self” is the philosophical neighbor of Sinai. Real persons are born into families, languages, memories, and obligations that constitute them before they choose. Moral life is not only the selection of ends. It is the recognition of memberships that precede choice. Sandel’s later political economy of citizenship — the shift from consumer ethics to producer ethics and contributive justice — names what a republic must honor: the citizen as contributor to a common good, not as a passive consumer of growth and services.
+
+
+
+Orthodox theology does not treat this as a discovery. A Jewish child inherits a web of obligations antecedent to deliberation. Freedom is not negative autonomy. It is the capacity to fulfill a destiny within a covenanted community. Halakhah is a daily pedagogy of restraint, tzedakah, and solidarity — the formative education that Sandel finds missing in the procedural state.
+
+
+
+Chassidus supplies the psychology that civic-virtue theory has always wanted and rarely secured.
+
+
+
+In Tanya, Igeret HaTeshuva, the Alter Rebbe describes the soul as a thick rope — chaval ha-amshacha — woven of 613 strands corresponding to the 613 commandments, a conduit of Divine vitality into the world. Transgression severs strands and diverts vitality into kelipat nogah and then into sitra achara. One uses God-given energy to nourish the forces that will dominate him. Teshuvah is the rebinding of the rope: the recovery of trapped vitality and of moral autonomy. A republic of free people is possible only if they govern their own appetites. The beinoni path is self-government before it is public government. Yirat Shamayim is not quietism. It is the inner check on arbitrary power that no constitution can fully outsource to courts.
+
+
+
+Iggeret HaKodesh, Epistle 2, teaches from Yaakov’s Katonti that every additional chesed must produce greater bitul. Closeness reveals the Infinite; the Infinite reveals the self as small. False pride, even spiritual pride rooted in kelipah, is the seed of domination. Soft speech in the face of opposition is the public fruit of that inner nothingness. Pettit’s non-domination requires citizens and magistrates who experience success as a summons to humility. Secular republicanism can recommend this. It cannot reliably generate it. Tanya can.
+
+
+
+Iggeret HaKodesh, Epistle 7, distinguishes chelek from goral: the universal portion of the 613 mitzvot that gives every member of Israel equal standing under law, and the particular lot — the unmeasured, non-interchangeable soul-mission. Equal citizenship and singular duty are not enemies. Authentic agency is universal law times individual purpose. The Hayom Yom for 21 Av makes the political implication explicit: even in the marketplace, the chassid remains obligated to the public work of hafatzah. Liberalism treats the market as a private zone of self-interest. Republicanism and Chassidus treat it as an arena of birurim — refinement — and of civic responsibility.
+
+
+
+The galbanum principle completes the social theory. Shemot 30:34 requires chelbenah, the foul-smelling resin, among the eleven spices of the ketoret. Keritot 6b derives the civic rule: any communal fast that does not include the sinners of Israel is no true fast. A political community that casts out its discordant elements invalidates its own offering. Covenantal unity is not a purity cult. It is arvut that includes the difficult.
+
+
+
+Va’etchanan (Devarim 4:5–40) adds the public face. The statutes are “your wisdom and your understanding in the eyes of the peoples.” This is not ethnic triumphalism. It is the claim that a life ordered by Divine law produces recognizable justice. The formless revelation at Horeb — “you saw no image, only a voice” — is the radical rejection of every finite absolute, including the state. The promise of return (4:29–31) is the constitutional mechanism no secular charter possesses: teshuvah, genuine renewal after catastrophic failure, because “He will not forget the covenant of your fathers.” Rashi, Ramban, and the later mefarshim read these verses as public wisdom, anti-idolatry, and the non-finality of exile. Covenantal republicanism reads them as legitimacy by demonstrated excellence, the prohibition of state-worship, and a path of refounding that does not require amnesia.
+
+
+
+The Hayom Yom of Menachem Av 6, drawing on the Alter Rebbe’s brief maamar after Petersburg, gives the daily technology: raise the middos into the mochin; let intellect illuminate emotion; draw Havayeh from the essence of the soul; sustain the worlds. Institutions cannot save a corrupt people. Character formation is not private therapy. It is how a public thing remains a public thing.
+
+
+
+Rambam’s laws of the daily offerings and of disqualified korbanot, studied even in the Nine Days, model the same demand at the level of public service: precision, purity, specialization of roles, freedom from defect. A society that wishes to be respected must first be ordered. Its public acts must be fit for the altar.
+
+
+
+VII. Economic Non-Domination and the Jubilee
+
+
+
+Political independence cannot survive economic peonage. Leviticus 25 is not a pastoral ornament. It is an anti-oligarchic constitution.
+
+
+
+“The land shall not be sold permanently, for the land is Mine; for you are strangers and sojourners with Me” (Vayikra 25:23). Every fifty years, ancestral land reverts. Sales of land become leases of crops. Latifundia cannot lock a people out of the means of production. Every seven years, Shemittah releases personal debts (Devarim 15). Indenture ends. The Hebrew servant goes free. James Harrington, in The Commonwealth of Oceana, cited the Jubilee as the precedent for agrarian laws: statutory limits on accumulation required to preserve a republican balance.
+
+
+
+The contemporary translation is not a mechanical reenactment of Bronze Age agronomy. It is the refusal of structures that recreate servitude by other means: energy dependence that becomes political coercion; midstream monopolies on lithium, cobalt, rare earths, and the sulfuric acid that refines them; supply chains that a rival can close at will. Near-shoring, ally-shoring, diversified energy, and redundant processing capacity are the Jubilee logic applied to a mineral age. They are not “industrial policy” as fashion. They are the material condition of non-domination.
+
+
+
+VIII. Hebraism, Federalism, and the Long Transmission
+
+
+
+Before the sixteenth century, European political theory lived mainly on Greek and Roman models. The Reformation drove a return to Hebrew Scripture and rabbinic commentary — Talmud, Mishneh Torah, midrash, Abarbanel, Ralbag. Reformed theologians in Huguenot, Dutch, and English Puritan circles articulated a dual-covenant theory: a theological covenant with God and a civil covenant of limited authority between rulers and a self-governing people. A ruler who violated the fundamental laws forfeited authority. Resistance became a constitutional act, not a riot.
+
+
+
+That transmission crossed the Atlantic before Locke’s treatises were in print. The Mayflower Compact adapted a church covenant to a civil body politic. Winthrop’s A Modell of Christian Charity framed the plantation as a collective bond of justice and mutual responsibility. Colonial writers yoked covenantal rights to Magna Carta, habeas corpus, and the jury. The Revolution was argued as a defense of chartered covenants against imperial breach. The Northwest Ordinance of 1787 made local compacting the mechanism of equal statehood. The Constitution of 1787 turned foedus into a supreme legal matrix: limited shared powers, local integrity, liberties under higher law.
+
+
+
+The nineteenth century forgot this. Americans entered the century thinking covenantally and left it thinking organically. Sectional crisis recast the Constitution as either a revocable treaty of sovereign states or an indivisible biological nation. Social Darwinism completed the shift: society as evolving organism, government as a functional subsystem, constitutions as flexible administrative tools. Elazar’s late-twentieth-century revival — reading both American federal democracy and the State of Israel as modern faces of the Hebraic covenant — was a recovery, not an invention.
+
+
+
+Joshua Berman’s Created Equal and Yoram Hazony’s work on Hebrew Scripture and particularism belong to the same recovery: the Bible as a break with ancient Near Eastern royal ideology, and particular covenant as the condition of a serious universal ethic rather than its enemy. The covenantal model refuses the false choice between Jewish destiny and human justice. It is through particular mission that a universal standard is preserved. A political framework that “neutralizes” that particularity weakens the civic guardrails it claims to protect.
+
+
+
+IX. Two Orthodox Architectures of Public Life
+
+
+
+The 1912 founding of Agudath Yisrael in Katowice, building on the 1910 St. Petersburg front, produced two enduring models of Orthodox engagement with modern politics. They are not a scandal. They are a republican debate.
+
+
+
+The Gerer Rebbe, the Imrei Emes, chose mass political mobilization: parliamentary candidates, Bais Yaakov and Yesodei HaTorah, Poalei Agudath Yisrael, a daily press, and the Moetzes Gedolei HaTorah as the governing mind of the movement. The strategy is Madisonian in Federalist No. 10: factions will form; a people that refuses to organize will be organized by others.
+
+
+
+The Rebbe Rashab declined to join. He feared the synthesis of Torah im Derekh Eretz as a door to secularizing the Eastern European yeshiva; he distrusted party bureaucracy and political bargaining; he preferred autonomous networks and ad-hoc coalitions for concrete crises. The later Chabad architecture of independent educational nodes and shluchim is the institutional descendant. The strategy is closer to Rousseau’s suspicion of partial associations: formal parties can introduce factionalism into a community that should remain bound by a higher law.
+
+
+
+Covenantal republicanism does not need to declare a winner. It needs to see the question clearly. How does a commanded people enter the res publica without becoming a faction of the res publica? One answer is a party under rabbinic oversight. Another is a decentralized network that refuses the state’s terms of recognition. Both are attempts to keep cheftza intact while acting in public. Both remain live options.
+
+
+
+X. Covenantal Realism
+
+
+
+The mid-2026 landscape — a fragile U.S.–Iran ceasefire over the Strait of Hormuz, Israeli operations against entrenched proxy infrastructure, the 36th NATO Summit in Ankara, European heat stress on energy systems, and the weaponization of sulfur and critical minerals — is not a news cycle. It is a tutorial in domination.
+
+
+
+Liberal institutionalism assumed that trade and organizations would domesticate autocracies. The assumption inverted. Revisionist powers used the networks built for peace as instruments of coercion. Offensive realism can describe the resulting anarchy and still miss why some alliances hold and others become protection rackets. Covenantal Realism is the name for a grand strategy that treats non-domination as the measure of security and covenant as the form of alliance.
+
+
+
+A temporary pause in hostilities is not freedom if Tehran retains the capacity to close a maritime corridor, if a proxy retains precision munitions and tunnels on a sovereign border, or if Beijing retains the midstream of lithium, cobalt, gallium, germanium, and antimony. Freedom is the removal of that capacity, not a better mood in the oil market. Emunah, from the root aman — endurance, reliability, architectural stability — is in this setting a hard-power concept. A “road map” that leaves nuclear threshold status, ballistic programs, and proxy infrastructure intact subsidizes future domination.
+
+
+
+Project Vault, announced in February 2026 as a strategic critical-minerals reserve — a public-private stockpile covering the USGS list, anchored by a large Export-Import Bank loan and private capital, demand-driven by OEM commitment fees — is a Machiavellian attempt, in the sense of the Discourses on Livy, to build virtù against fortuna. The republican critique, already voiced by analysts at the Bipartisan Policy Center and Columbia SIPA, is that ore without domestic processing is still dependence. Project FORGE — the Forum on Resource Geostrategic Engagement, a plurilateral zone of dozens of allied states with price floors and coordinated tariffs against predatory dumping — is an attempt to close that gap: a mine with a guaranteed refinery, a refinery with a guaranteed buyer, a bloc that cannot be picked apart by a single monopolist.
+
+
+
+NATO, at Ankara, is the same test in military form. The transactional view treats the alliance as a protection contract: pay the GDP fee, keep the bases, ignore democratic backsliding and strategic hedging. The covenantal view treats it as a bund of free peoples whose purpose is the non-domination of the free world. A 5 percent defense investment target, if framed as a fine, hollows trust. If framed as mutual rededication — including the recognition that Europe’s energy and climate shocks are shared vulnerabilities — it can be a renewal of brit. An alliance of republics cannot project power abroad if it hollows civic virtue at home.
+
+
+
+Maimonides in Hilkhot Melakhim treats the defense of the realm against existential threat as an affirmative duty. Pikuach nefesh is not a metaphor. Soft power without secure borders, secure supply, and the capacity to fight is sentiment. Covenantal Realism refuses both cynicism and naïveté. It builds leverage so that free nations cannot be coerced. It binds allies by shared obligation and memory, not by the next quarter’s ledger.
+
+
+
+The inner analogue is the distinction, in the daily and geopolitical essays of 5786, between yetzaveh and performative populism: commanded transmission through education, family, and high-turnout civic work, rather than cultural pyrotechnics. Striking the rock is a leadership failure. Speaking to it is a covenantal one.
+
+
+
+XI. Membership, Exile, and the Law of the Land
+
+
+
+Halakhic political theory is not only a theory of Israel. Maimonides’ Noahide framework in Hilkhot Melakhim 8–10 requires every human society to establish courts (dinim) and to uphold core prohibitions against murder, theft, idolatry, sexual chaos, blasphemy, cruelty to animals, and lawlessness. The architecture is tiered: an obligation-intensive covenantal polity under the full matrix of Torah; a universal civil order of nations bound by natural law and judicial administration. Particular covenant and universal ethics are nested, not opposed.
+
+
+
+Dina de-malkhuta dina (Nedarim 28a) is the theological mechanism by which a covenantal community respects a consent-based civil system that is not itself Sinai. It is not assimilation. It is the refusal to treat every foreign statute as war. Suzanne Last Stone has described the difficulty of the reverse movement: from galut, when Jewish law preserved cohesion by arbitration, social sanction, and accommodation of foreign rulers, to sovereign statehood, which requires defense, administration, and territorial jurisdiction. The classical tools for that translation already exist: hefker beit din hefker, the court’s authority to regulate property for public welfare; takkanot ha-kahal, communal legislation; tuvei ha-ir. Aligned with republican non-domination and equal legal standing, these doctrines can inform a constitutional state that keeps faith with halakhic ethics without abolishing the civil rights of those who do not stand inside the particular covenant.
+
+
+
+The nineteenth- and twentieth-century record is a warning as well as a resource. Civic militarism — the citizen-soldier of early Israel, the milu’im reserve, the refusal of a purely mercenary army — belongs to the republican inheritance. So does the memory that when the Israelite monarchy fell, the covenantal matrix survived exile. Rome professionalized its armies and became an autocracy. Israel lost a state and kept a people. That is not an argument against sovereignty. It is an argument about what sovereignty is for.
+
+
+
+XII. Comparative Matrix
+
+
+
+Four traditions may be set side by side without caricature.
+
+
+
+Hobbesian statism locates ultimate sovereignty in the Leviathan. Its liberty is security purchased by subordination. Its executive is absolute. Its army is a standing instrument of the sovereign. Its economy is extraction. Its virtue is coerced compliance.
+
+
+
+Liberal individualism locates sovereignty in the autonomous person. Its liberty is non-interference. Its executive is minimal and regulated. Its army is professional or volunteer. Its economy is unrestricted accumulation. Its virtue is preference.
+
+
+
+Neo-Roman republicanism locates sovereignty in the republic and its laws. Its liberty is non-domination. Its executive is bounded and publicly accountable. Its army is ideally a citizen militia. Its economy includes anti-oligarchic limits. Its virtue is education and participation.
+
+
+
+Covenantal republicanism locates ultimate sovereignty in God and in Torah as higher law. Its liberty is covenantal non-servitude: “My servants, and not servants to servants.” Its executive is dual-track — Mishpat Ha-Melekh bounded by Mishpat Ha-Torah — and, in the absence of a king, malkhut seated in the people and their chosen officers. Its military ethic is the citizen-soldier under law. Its economy pairs property with periodic reset against oligarchic capture. Its civic virtue is formed by mitzvah, teshuvah, bitul, and the galbanum inclusion of the whole people. Its legitimacy is Divine command joined to collective consent. Its renewal mechanism is teshuvah, which no social contract can legislate.
+
+
+
+The primary vulnerability of the liberal frame is thinness: rights without duty, procedure without a people. The primary vulnerability of the neo-Roman frame is corruption and civic apathy once virtue is only a civic fashion. The primary vulnerability of the covenantal frame is the human temptation to turn Torah into an idol of coercion — to forget that the same constitution that binds the citizen binds the king, and that the incense is invalid without galbanum. The synthesis is a discipline, not a slogan.
+
+
+
+XIII. What Follows
+
+
+
+Several conclusions follow for anyone who would govern, teach, or simply remain a citizen in 5786.
+
+
+
+First, state absolutism is a theological error before it is a constitutional one. Monotheism, properly understood, unmasks the idol of the exception. The magistrate is an agent of the covenant, not its source.
+
+
+
+Second, legal dualism is not a medieval curiosity. It is the most sophisticated Jewish answer to the permanent tension between pure justice and civil order. An independent judiciary that cannot be rewritten by emergency, and an executive that can still keep the peace, is the architecture of liberty under law.
+
+
+
+Third, consent is real and it is not enough. Da’at ha-am, tuvei ha-ir, Na’aseh v’Nishma, and the kahal are the Jewish names for popular authorization. They do not license an unencumbered will. They authorize officers to serve a prior constitution.
+
+
+
+Fourth, character is infrastructure. Bitul, the elevation of middos, the 613-strand rope, the beinoni’s daily self-command — these are not retreats from politics. They are the conditions under which politics does not become domination. Soft speech is a republican practice.
+
+
+
+Fifth, economy and alliance must be judged by non-domination. A people that cannot feed, fuel, refine, or defend itself except by a rival’s permission is not free. A league that is only a ledger is not a covenant. Vaults, forums, friend-shoring, and burden-sharing matter because they are material brit, or they fail.
+
+
+
+Sixth, particularity is not the enemy of the common good. The statutes lived publicly are wisdom in the eyes of the nations. The Noahide floor binds humanity. Dina de-malkhuta dina makes coexistence possible. None of this requires the neutralization of Jewish mission.
+
+
+
+Seventh, teshuvah is the distinctive gift of this constitution to political thought. Republics die when they cannot return to their founding without lying about the interval. The covenant remembers the fathers and still opens a door after exile.
+
+
+
+I do not offer this as a party program or as a nostalgia for a monarchy that Abarbanel already distrusted. I offer it as a learned description of a tradition that has been hiding in plain sight across dozens of drafts, shiurim, and geopolitical notes: the Hebrew republic as a living option. From Pittsburgh steel to Jerusalem stone, the work is the same. Bind the rope. Keep the offices distinct. Refuse the idol of unlimited human power. Form citizens who can bear a common thing. Treat allies as partners in a brit, not as entries in a contract. And remember that the land, the law, and the people are held, finally, by Someone who is not up for election.
+
+
+
+That is Covenantal Republicanism. It is not a compromise between faith and the state. It is the older name for a free people under law.
+
+
+
+Selected Sources
+
+
+
+These works are those actually drawn upon in the drafts from which this master essay was consolidated. No titles have been added for ornament.
+
+
+
+Primary and rabbinic
+
+Abarbanel, Don Isaac. Commentaries on Deuteronomy 17 and I Samuel 8.
+
+Berlin, Naftali Zvi Yehuda (Netziv). Ha’amek Davar.
+
+Maimonides. Mishneh Torah, Hilkhot Melakhim u-Milhamoteihem; Sefer HaMitzvot; Hilkhot Temidin u-Musafim; Hilkhot Pesulei Ha-Mukdashin.
+
+Nissim of Gerona (Ran). Derashot Ha-Ran, Discourse 11.
+
+Saadia Gaon. Emunot ve-De’ot.
+
+Schneur Zalman of Liadi. Tanya: Igeret HaTeshuva; Iggeret HaKodesh, Epistles 2 and 7.
+
+Schneersohn, Shalom DovBer. Torat Shalom.
+
+Soloveitchik, Chaim. Chiddushei Rabbeinu Chaim HaLevi al HaRambam.
+
+Soloveitchik, Joseph B. Halakhic Man; Kol Dodi Dofek.
+
+Talmud Bavli. Bava Metzia; Horayot; Keritot; Nedarim; Sanhedrin.
+
+Hayom Yom, entries for Menachem Av 6 and 21 Av.
+
+
+
+Political Hebraism and republican theory
+
+Cunaeus, Petrus. De Republica Hebraeorum.
+
+Harrington, James. The Commonwealth of Oceana. Ed. J. G. A. Pocock.
+
+Machiavelli, Niccolò. Discourses on Livy.
+
+Nelson, Eric. The Hebrew Republic. Harvard University Press, 2010.
+
+Pettit, Philip. Republicanism: A Theory of Freedom and Government. Oxford, 1997; On the People’s Terms, 2012; Just Freedom, 2014.
+
+Pocock, J. G. A. The Machiavellian Moment. Princeton, 1975.
+
+Skinner, Quentin. Liberty Before Liberalism. Cambridge, 1998.
+
+Slate, Daniel. The Chief Magistrate: Hebraic Republicanism and the American Executive. Working paper, University of Notre Dame.
+
+
+
+Jewish political thought and legal theory
+
+Berman, Joshua. Created Equal. Oxford, 2008.
+
+Cover, Robert. “Nomos and Narrative.” Harvard Law Review 97 (1983); “Obligation: A Jewish Jurisprudence of the Social Order.” Journal of Law and Religion 5 (1987).
+
+Elazar, Daniel J. The Covenant Tradition in Politics, especially Covenant and Polity in Biblical Israel.
+
+Hazony, Yoram. The Philosophy of Hebrew Scripture; The Virtue of Nationalism.
+
+Levinson, Bernard M. Work on Deuteronomy and the origins of constitutional thought.
+
+Lorberbaum, Menachem. Politics and the Limits of Law. Stanford, 2001.
+
+Novak, David. The Jewish Social Contract. Princeton, 2005.
+
+Sacks, Jonathan. The Home We Build Together; The Dignity of Difference; Morality; Covenant & Conversation.
+
+Sandel, Michael. Liberalism and the Limits of Justice; Democracy’s Discontent.
+
+Stone, Suzanne Last. “In Pursuit of the Counter-Text.” Harvard Law Review 106 (1993); later work on the Jewish legal model and statehood.
+
+Vatter, Miguel. Living Law. Oxford, 2021.
+
+Walzer, Michael. Exodus and Revolution; In God’s Shadow; and, with Lorberbaum and Zohar, The Jewish Political Tradition.
+
+
+
+Historical and institutional studies cited in the drafts
+
+Bacon, Gershon C. The Politics of Tradition: Agudat Yisrael in Poland, 1916–1939.
+
+Lichtenstein, Aharon. “The Brisker Method of Talmudic Analysis,” in Leaves of Faith.
+
+Stampfer, Shaul. Families, Rabbis and Education.
+
+
+
+Contemporary strategic materials as used in the 2026 drafts
+
+Bipartisan Policy Center and Columbia SIPA analyses of Project Vault and Project FORGE (2026).
+
+Council on Foreign Relations and related 2026 alliance and minerals reporting as cited in the source essays.
