@@ -44,9 +44,10 @@ a[aria-current="page"] { font-weight: 700; text-decoration: none; color: var(--i
 }
 .nav nav { display: flex; gap: 1.35rem; flex-wrap: wrap; align-items: baseline; }
 .nav-quiet {
-  font-size: 0.88rem;
-  color: var(--muted);
-  text-decoration: none;
+  color: var(--accent);
+  text-decoration: underline;
+  font-size: inherit;
+  font-weight: inherit;
 }
 .nav-quiet:hover { color: var(--accent); text-decoration: underline; }
 main { flex: 1; width: 100%; min-width: 0; }
@@ -78,7 +79,33 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 .project-list a { font-size: 1.15rem; }
 .project-list p { margin: 0.3rem 0 0; color: var(--muted); }
 .prose { padding: 3.25rem 8vw 3.5rem; max-width: 880px; margin-inline: auto; }
-.prose h1 { margin-bottom: 1.15rem; }
+.prose h1, .essay h1 {
+  margin: 0 0 1.15rem;
+  font-size: 1.85rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+}
+.prose h2, .essay h2 {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+}
+.prose h3, .essay h3 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+}
 .prose p { margin: 0 0 1rem; }
 .prose .project-list { margin-top: 1.5rem; }
 .contact-list { padding-left: 1.2rem; }
@@ -101,6 +128,4 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 .card-title { font-size: 1.15rem; color: var(--ink); }
 
 .essay { max-width: 880px; margin-inline: auto; }
-.essay h1 { font-size: 1.85rem; }
-.essay h2 { text-transform: none; letter-spacing: 0; font-size: 1.2rem; color: var(--ink); margin-top: 1.75rem; }
 .essay-back { margin-top: 2.5rem; }
