@@ -104,3 +104,7 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 .essay h1 { font-size: 1.85rem; }
 .essay h2 { text-transform: none; letter-spacing: 0; font-size: 1.2rem; color: var(--ink); margin-top: 1.75rem; }
 .essay-back { margin-top: 2.5rem; }
+
+.essay table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.5rem; font-size: 0.95rem; }
+.essay th, .essay td { border: 1px solid var(--line); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+.essay th { background: var(--card); }
