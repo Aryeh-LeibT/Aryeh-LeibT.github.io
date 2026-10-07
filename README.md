@@ -1,4 +1,4 @@
-# Aryeh-Leib Thorne
+# Aryeh Leib Thorne Toren
 
 Personal site on GitHub Pages: https://aryeh-leibt.github.io/
 
