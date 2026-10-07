@@ -189,3 +189,14 @@ main { animation: fade-in 400ms ease-out both; }
   main { animation: none; }
   .nav a, .project-list a, .project-list li, .site-footer a, .prose a, .back-to-top { transition: none; }
 }
+
+/* ---- Support page: placeholder store links and credit line ---- */
+.support-list .card-title { display: block; }
+.support-list p:last-child { margin-bottom: 0; }
+.placeholder-link {
+  pointer-events: none;
+  color: var(--muted);
+  text-decoration: none;
+  font-style: italic;
+}
+.prose .credit-line { margin-top: 2rem; color: var(--muted); font-size: 0.95rem; font-style: italic; }
