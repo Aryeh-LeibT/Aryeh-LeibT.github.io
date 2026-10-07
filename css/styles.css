@@ -131,3 +131,61 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 .essay table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.5rem; font-size: 0.95rem; }
 .essay th, .essay td { border: 1px solid var(--line); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
 .essay th { background: var(--card); }
+
+/* ---- Animation: gentle hover/focus transitions ---- */
+.nav a,
+.project-list a,
+.site-footer a,
+.prose a {
+  transition: color 180ms ease, text-decoration-color 180ms ease, background-color 180ms ease;
+}
+.nav nav a:hover,
+.nav nav a:focus-visible,
+.site-footer a:hover,
+.site-footer a:focus-visible { color: var(--ink); }
+.project-list li { transition: border-color 180ms ease, background-color 180ms ease; }
+.project-list li:hover,
+.project-list li:focus-within { border-color: var(--accent); background-color: #fff; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---- Animation: fade main content in on page load ---- */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+main { animation: fade-in 400ms ease-out both; }
+
+/* ---- Icons (Font Awesome): small gap before the text label ---- */
+.site-footer .fa-solid,
+.site-footer .fa-brands,
+.prose .fa-solid,
+.prose .fa-brands { margin-right: 0.3em; }
+.site-footer .footer-copy { margin-top: 0.35rem; font-size: 0.9rem; }
+
+/* ---- Back-to-top button (created by js/site.js) ---- */
+.back-to-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  padding: 0.45rem 0.8rem;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease, visibility 200ms ease, border-color 180ms ease;
+}
+.back-to-top.is-visible { opacity: 1; visibility: visible; }
+.back-to-top:hover,
+.back-to-top:focus-visible { border-color: var(--accent); }
+.back-to-top:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---- Respect "reduce motion": turn off the animations above ---- */
+@media (prefers-reduced-motion: reduce) {
+  main { animation: none; }
+  .nav a, .project-list a, .project-list li, .site-footer a, .prose a, .back-to-top { transition: none; }
+}
