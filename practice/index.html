@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+  practice/index.html: Aryeh's JavaScript practice page (course exercises).
+
+  PRACTICE ONLY. This file lives on the branch "course-js-practice".
+  GitHub Pages only publishes the "main" branch, so nothing here is on
+  aryehleibtoren.com. Never merge this branch into main.
+
+  How to open it: double-click this file, or see practice/README.md.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Tell search engines not to list this page, just in case. -->
+    <meta name="robots" content="noindex" />
+    <title>JS practice · course exercises</title>
+    <!-- Borrow the site's stylesheet so the page looks familiar.
+         "../" means "go up one folder" (from practice/ to the top). -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <style>
+      /* A few extra styles just for this page. */
+      .exercise { margin-bottom: 2.5rem; }
+      .output {
+        padding: 0.75rem 1rem;
+        border: 1px solid var(--line, #ccc);
+        background: var(--card, #fff);
+        font-family: monospace;
+        white-space: pre-line; /* keep the line breaks we put in the text */
+      }
+      button { font: inherit; padding: 0.4rem 0.9rem; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <article class="prose">
+        <h1>JavaScript practice</h1>
+        <p>Practice only: this page is not on the live site. Open your browser's
+          console to see the messages too (press F12, then click "Console").</p>
+
+        <!-- EXERCISE 1: variables (notebook page 12)
+             "var myNumber = 3; // a number"   "var myString =" -->
+        <section class="exercise">
+          <h2>1. Variables: myNumber and myString</h2>
+          <p>From the notebook: <code>var myNumber = 3; // a number</code> and
+            <code>var myString = ...</code>. The script puts them in the console
+            and also shows them in the box below.</p>
+          <!-- The script finds this box by its id and writes into it. -->
+          <p id="variables-output" class="output">(JavaScript has not run yet.)</p>
+        </section>
+
+        <!-- EXERCISE 2: a button that changes text (notebook page 13, "JS - change") -->
+        <section class="exercise">
+          <h2>2. A button that changes text</h2>
+          <!-- id="message" lets the script find this paragraph. -->
+          <p id="message" class="output">Hello! Click the button.</p>
+          <!-- id="change-button" lets the script find the button. -->
+          <button type="button" id="change-button">Change the text</button>
+        </section>
+      </article>
+    </main>
+
+    <!-- Load the script LAST, after the page's HTML,
+         so the elements above already exist when the script looks for them. -->
+    <script src="practice.js"></script>
+  </body>
+</html>
