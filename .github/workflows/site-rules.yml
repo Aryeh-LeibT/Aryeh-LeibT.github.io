@@ -1,0 +1,19 @@
+name: Site rules
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  rules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Hard rules (held pieces, sources, internal markers, private paths)
+        run: python3 scripts/lint-site.py --gh
+      - name: Internal link check
+        run: python3 scripts/check-links.py
