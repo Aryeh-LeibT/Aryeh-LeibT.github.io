@@ -1,0 +1,72 @@
+name: Election-night map data
+# Opens or updates ONE data PR per race (branch election-night/<race>). Never pushes to main, never merges,
+# never force-pushes. Skips Shabbat and Yom Tov via scripts/elections-refresh.py --gate.
+# Brazil: fetches TSE automatically. US: converts the hand-checked CSV at data/elections/input/us-2026-results.csv.
+on:
+  schedule:
+    # Brazil runoff, 25 Oct 2026: polls close 20:00 UTC. Every 20 min, 20:00-03:40 UTC.
+    - cron: "*/20 20-23 25 10 *"
+    - cron: "*/20 0-3 26 10 *"
+  workflow_dispatch:
+    inputs:
+      race:
+        description: "brazil or us"
+        required: true
+        default: brazil
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: election-night
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Shabbat and Yom Tov gate (and 2026 only)
+        id: gate
+        run: |
+          if [ "$(date -u +%Y)" != "2026" ]; then echo "run=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if python3 scripts/elections-refresh.py --gate; then echo "run=yes" >> "$GITHUB_OUTPUT"; else echo "run=no" >> "$GITHUB_OUTPUT"; fi
+      - name: Pick race
+        id: race
+        run: echo "race=${{ github.event.inputs.race || 'brazil' }}" >> "$GITHUB_OUTPUT"
+      - name: Build data (writes JSON only)
+        if: steps.gate.outputs.run == 'yes'
+        run: |
+          if [ "${{ steps.race.outputs.race }}" = "brazil" ]; then
+            python3 scripts/update-election-map.py br --cycle ele2026 --election 6258
+            F=data/elections/brazil-2026-map.json
+          else
+            test -f data/elections/input/us-2026-results.csv || { echo "No US CSV on main yet."; exit 0; }
+            python3 scripts/update-election-map.py us --csv data/elections/input/us-2026-results.csv
+            F=data/elections/us-2026-map.json
+          fi
+          python3 scripts/update-election-map.py validate
+          cp "$F" /tmp/new.json; echo "F=$F" >> "$GITHUB_ENV"
+      - name: Checks (bot PRs do not trigger the Site rules workflow, so run them here)
+        if: steps.gate.outputs.run == 'yes' && env.F != ''
+        run: python3 scripts/lint-site.py --gh && python3 scripts/check-links.py
+      - name: Open or update the single data PR
+        if: steps.gate.outputs.run == 'yes' && env.F != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BR="election-night/${{ steps.race.outputs.race }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BR" >/dev/null; then git fetch origin "$BR"; git checkout -B "$BR" "origin/$BR"; else git checkout -b "$BR"; fi
+          cp /tmp/new.json "$F"
+          if git diff --quiet -- "$F"; then echo "No change."; exit 0; fi
+          git add "$F"
+          git commit -m "Election-night data $(TZ=Asia/Jerusalem date '+%d %b %H:%M') IL (${{ steps.race.outputs.race }})"
+          git push origin "$BR"
+          if [ -z "$(gh pr list --head "$BR" --state open --json number --jq '.[].number')" ]; then
+            gh pr create --base main --head "$BR" --title "Election-night data: ${{ steps.race.outputs.race }}" --body "Data-only update from official sources (see docs/election-night-plan.md). Merge only after a check, with CI green, never on Shabbat or Yom Tov."
+          fi

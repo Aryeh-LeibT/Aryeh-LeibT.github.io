@@ -1,0 +1,2111 @@
+{
+ "id": "us-2026-map",
+ "election": "US midterm elections, 3 November 2026",
+ "level": "state",
+ "updated_at": "2026-10-14T15:25:09+03:00",
+ "races_available": [
+  "senate",
+  "governor",
+  "house"
+ ],
+ "boundaries": {
+  "name": "us-atlas v3 (U.S. Census Bureau cartographic boundaries)",
+  "license": "ISC (data: public domain)",
+  "url": "https://github.com/topojson/us-atlas"
+ },
+ "states": {
+  "AL": {
+   "name": "Alabama",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 7,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "AK": {
+   "name": "Alaska",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 1,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "AZ": {
+   "name": "Arizona",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 9,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "AR": {
+   "name": "Arkansas",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 4,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "CA": {
+   "name": "California",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 52,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "CO": {
+   "name": "Colorado",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 8,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "CT": {
+   "name": "Connecticut",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 5,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "DE": {
+   "name": "Delaware",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 1,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "DC": {
+   "name": "District of Columbia",
+   "races": {}
+  },
+  "FL": {
+   "name": "Florida",
+   "races": {
+    "senate_special": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 28,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "GA": {
+   "name": "Georgia",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 14,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "HI": {
+   "name": "Hawaii",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 2,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "ID": {
+   "name": "Idaho",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 2,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "IL": {
+   "name": "Illinois",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 17,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "IN": {
+   "name": "Indiana",
+   "races": {
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 9,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "IA": {
+   "name": "Iowa",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 4,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "KS": {
+   "name": "Kansas",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 4,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "KY": {
+   "name": "Kentucky",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 6,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "LA": {
+   "name": "Louisiana",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 6,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "ME": {
+   "name": "Maine",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 2,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "MD": {
+   "name": "Maryland",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 8,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "MA": {
+   "name": "Massachusetts",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 9,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "MI": {
+   "name": "Michigan",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 13,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "MN": {
+   "name": "Minnesota",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 8,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "MS": {
+   "name": "Mississippi",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 4,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "MO": {
+   "name": "Missouri",
+   "races": {
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 8,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "MT": {
+   "name": "Montana",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 2,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "NE": {
+   "name": "Nebraska",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 3,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "NV": {
+   "name": "Nevada",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 4,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "NH": {
+   "name": "New Hampshire",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 2,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "NJ": {
+   "name": "New Jersey",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 12,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "NM": {
+   "name": "New Mexico",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 3,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "NY": {
+   "name": "New York",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 26,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "NC": {
+   "name": "North Carolina",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 14,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "ND": {
+   "name": "North Dakota",
+   "races": {
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 1,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "OH": {
+   "name": "Ohio",
+   "races": {
+    "senate_special": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 15,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "OK": {
+   "name": "Oklahoma",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 5,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "OR": {
+   "name": "Oregon",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 6,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "PA": {
+   "name": "Pennsylvania",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 17,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "RI": {
+   "name": "Rhode Island",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 2,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "SC": {
+   "name": "South Carolina",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 7,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "SD": {
+   "name": "South Dakota",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 1,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "TN": {
+   "name": "Tennessee",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 9,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "TX": {
+   "name": "Texas",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 38,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "UT": {
+   "name": "Utah",
+   "races": {
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 4,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "VT": {
+   "name": "Vermont",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 1,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "VA": {
+   "name": "Virginia",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 11,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "WA": {
+   "name": "Washington",
+   "races": {
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 10,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "WV": {
+   "name": "West Virginia",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 2,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "WI": {
+   "name": "Wisconsin",
+   "races": {
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 8,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  },
+  "WY": {
+   "name": "Wyoming",
+   "races": {
+    "senate": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "governor": {
+     "candidates": [],
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00"
+    },
+    "house": {
+     "reporting_pct": null,
+     "status": "no results",
+     "called_by": null,
+     "source_name": "State election office (results not yet reported)",
+     "source_url": "https://www.usa.gov/state-election-office",
+     "updated_at": "2026-10-14T15:25:09+03:00",
+     "seats": 1,
+     "tally": {
+      "D": {
+       "won": 0,
+       "leading": 0
+      },
+      "R": {
+       "won": 0,
+       "leading": 0
+      },
+      "other": {
+       "won": 0,
+       "leading": 0
+      }
+     },
+     "districts": []
+    }
+   }
+  }
+ }
+}

@@ -17,3 +17,38 @@
 [dir="rtl"] body { font-family: "Gelasio", "Noto Serif Hebrew", "David", serif; }
 .el-article { max-width: 44rem; }
 .el-more { margin-block: 1rem; font-weight: 600; }
+
+/* Election-night maps (js/election-map.js). Restyle here: every colour is a variable. */
+.em-page {
+  --em-none: #d6d3c8;        /* state with a race but no results yet */
+  --em-norace: #f4f3ef;      /* no race in this state this year */
+  --em-stroke: #ffffff;      /* state borders */
+  --em-focus: #1a1a1a;       /* keyboard focus outline */
+  --em-leading-opacity: 0.45;/* lighter shading = leading, solid = called */
+  --em-c-PT: #b5523b;        /* Brazil: Lula (PT) */
+  --em-c-PL: #2f5f8a;        /* Brazil: Flávio Bolsonaro (PL) */
+  --em-c-D: #2f5f8a;         /* US: Democrats */
+  --em-c-R: #b5523b;         /* US: Republicans */
+  --em-c-OTH: #7a6a9b;       /* US: independents and others */
+  --em-tip-bg: #1f2a36;
+  --em-tip-fg: #ffffff;
+}
+.em-map { position: relative; max-width: 46rem; margin-block: 1rem; }
+.em-svg { width: 100%; height: auto; display: block; }
+.em-svg path { fill: var(--em-none); stroke: var(--em-stroke); stroke-width: 0.7; cursor: pointer; }
+.em-svg path.em-norace { fill: var(--em-norace); }
+.em-svg path.em-none { fill: var(--em-none); }
+.em-svg path.em-p-PT { fill: var(--em-c-PT); } .em-svg path.em-p-PL { fill: var(--em-c-PL); }
+.em-svg path.em-p-D { fill: var(--em-c-D); } .em-svg path.em-p-R { fill: var(--em-c-R); } .em-svg path.em-p-OTH, .em-svg path.em-p-I { fill: var(--em-c-OTH); }
+.em-svg path.em-leading { fill-opacity: var(--em-leading-opacity); }
+.em-svg path.em-called { fill-opacity: 1; }
+.em-svg path:focus { outline: none; stroke: var(--em-focus); stroke-width: 2.5; }
+.em-tip { position: absolute; max-width: 15rem; padding: 0.4rem 0.6rem; background: var(--em-tip-bg); color: var(--em-tip-fg); font-size: 0.85rem; border-radius: 4px; pointer-events: none; z-index: 2; }
+.em-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; padding: 0; list-style: none; font-size: 0.9rem; }
+.em-sw { display: inline-block; width: 1rem; height: 1rem; vertical-align: -0.15rem; margin-inline-end: 0.35rem; border: 1px solid #999; }
+.em-sw.em-leading { opacity: var(--em-leading-opacity); }
+.em-source { font-size: 1rem; padding: 0.6rem 0.8rem; border-inline-start: 4px solid var(--accent, #243f5c); background: #f6f5f1; }
+.em-races button { font: inherit; padding: 0.3rem 0.8rem; margin-inline-end: 0.4rem; border: 1px solid var(--accent, #243f5c); background: transparent; border-radius: 3px; cursor: pointer; }
+.em-races button[aria-pressed="true"] { background: var(--accent, #243f5c); color: #fff; }
+.em-tablewrap { overflow-x: auto; }
+.em-credit { font-size: 0.85rem; color: var(--muted); }
