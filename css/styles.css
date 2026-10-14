@@ -265,3 +265,7 @@ main { animation: fade-in 400ms ease-out both; }
   .ios-install-tip { transition: none; transform: none; }
   .install-app { transition: none; }
 }
+
+/* Site images (batch 1) */
+.page-banner { display: block; width: 100%; height: auto; max-width: 1100px; margin: 0 auto 1.5rem; border-radius: 8px; }
+.tile-img, .card-img { display: block; width: 100%; max-width: 360px; height: auto; border-radius: 6px; margin-bottom: .5rem; }
