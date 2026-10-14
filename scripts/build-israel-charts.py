@@ -137,7 +137,8 @@ def build(L):
     if not lv["rows"]:
         out.append(f'<p class="el-empty">{t["live_empty"]}</p>')
     out.append(f'<p class="el-note">{"נקבצו לפי הגושים שבהם השתמשו כלי התקשורת המצוטטים; זה תיאור של שיוך מדווח ולא תחזית לקואליציה." if rtl else e(D["bloc_note"])}</p></div>')
-    return "\n".join(out)
+    # Wrap each chart so phones can scroll it sideways instead of shrinking the text.
+    return re.sub(r"(<svg .*?</svg>)", r'<div class="ilc-chart">\1</div>', "\n".join(out), flags=re.S)
 
 for L, path in (("en", "elections/israel-2026/index.html"), ("he", "he/elections/israel-2026/index.html")):
     p = ROOT / path; txt = p.read_text(encoding="utf-8")

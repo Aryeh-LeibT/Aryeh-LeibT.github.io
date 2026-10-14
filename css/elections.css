@@ -63,3 +63,11 @@
 .em-credit { font-size: 0.85rem; color: var(--muted); }
 
 .em-sw.em-norace { background: repeating-linear-gradient(45deg, var(--em-norace) 0 3px, #ffffff 3px 5px) !important; }
+
+/* Mobile: keep chart text readable; let wide charts scroll sideways */
+.ilc-chart { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.ilc-chart svg { margin-block: 0.75rem 0.5rem; }
+@media (max-width: 600px) {
+  .ilc-chart svg { min-width: 560px; }
+  .ilc-polls thead th { min-width: 7.5rem; }
+}

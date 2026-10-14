@@ -304,3 +304,11 @@ html:lang(he) h2,
 [dir="rtl"] h2 { letter-spacing: 0; }
 /* English footer links on Hebrew pages: keep each icon next to its own label. */
 [dir="rtl"] .site-footer a { unicode-bidi: isolate; }
+
+/* Mobile layout fixes */
+img, svg, video { max-width: 100%; }
+img { height: auto; }
+.tile-list { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.tile-list a { display: block; }
+.tile-list .tile-img { max-width: 100%; }
+.nav nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
