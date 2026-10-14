@@ -23,13 +23,16 @@ if (!alreadyMarked) {
   });
 }
 
+// Hebrew pages (<html lang="he">) get Hebrew labels on the buttons below.
+const isHebrew = document.documentElement.lang === "he";
+
 // 3. Back-to-top button: create it here (so the HTML stays clean),
 //    show it after the reader scrolls down, and scroll up when clicked.
 const topButton = document.createElement("button");
 topButton.type = "button";
 topButton.className = "back-to-top";
-topButton.textContent = "↑ Top";
-topButton.setAttribute("aria-label", "Back to top");
+topButton.textContent = isHebrew ? "↑ למעלה" : "↑ Top";
+topButton.setAttribute("aria-label", isHebrew ? "חזרה לראש העמוד" : "Back to top");
 document.body.appendChild(topButton);
 
 function updateTopButton() {
@@ -75,7 +78,8 @@ const installButton = document.createElement("button");
 installButton.type = "button";
 installButton.className = "install-app";
 installButton.hidden = true; // hidden until the browser says we can install
-installButton.innerHTML = '<i class="fa-solid fa-download" aria-hidden="true"></i>Install app';
+installButton.innerHTML =
+  '<i class="fa-solid fa-download" aria-hidden="true"></i>' + (isHebrew ? "התקנת האפליקציה" : "Install app");
 document.body.appendChild(installButton);
 
 window.addEventListener("beforeinstallprompt", function (event) {
