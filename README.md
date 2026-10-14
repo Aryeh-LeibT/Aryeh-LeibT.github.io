@@ -44,3 +44,15 @@ python3 -m http.server 8000
 ```
 
 then open http://localhost:8000/ in a browser. Press Ctrl+C to stop it.
+
+## Sitemap and Hebrew pages
+
+Hebrew pages live under `/he/` and mirror the English layout (`/he/about/`,
+`/he/torah/`, ...). Each English/Hebrew pair links to the other at the top of
+the page and carries `hreflang` links in its `<head>`.
+
+After adding or removing a page, rebuild the sitemap from the top folder:
+
+```
+python3 scripts/build-sitemap.py
+```

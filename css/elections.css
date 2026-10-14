@@ -17,3 +17,49 @@
 [dir="rtl"] body { font-family: "Gelasio", "Noto Serif Hebrew", "David", serif; }
 .el-article { max-width: 44rem; }
 .el-more { margin-block: 1rem; font-weight: 600; }
+/* Israel votes/seats charts (scripts/build-israel-charts.py) */
+.ilc svg { width: 100%; max-width: 44rem; height: auto; display: block; margin-block: 0.75rem 0.5rem; }
+.ilc h3 { margin-block-start: 1.75rem; }
+.ilc-tag { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; border: 1px solid var(--muted); color: var(--muted); padding: 0.05rem 0.4rem; border-radius: 3px; vertical-align: middle; }
+[dir="rtl"] .ilc-tag { text-transform: none; letter-spacing: 0; }
+.ilc-scroll { overflow-x: auto; }
+.ilc-polls small { font-weight: 400; color: var(--muted); }
+.ilc-tbl summary { cursor: pointer; color: var(--muted); font-size: 0.95rem; }
+
+
+/* Election-night maps (js/election-map.js). Restyle here: every colour is a variable. */
+.em-page {
+  --em-none: #EEEBE4;        /* state with a race but no results yet */
+  --em-norace: #D9D6CF;      /* no race in this state this year */
+  --em-stroke: #FFFFFF;      /* state borders */
+  --em-focus: #1F2A44;       /* keyboard focus outline */
+  --em-leading-opacity: 0.45;/* lighter shading = leading, solid = called */
+  --em-c-PT: #D55E00;        /* Brazil: Lula (PT) */
+  --em-c-PL: #0072B2;        /* Brazil: Flávio Bolsonaro (PL) */
+  --em-c-D: #0072B2;         /* US: Democrats */
+  --em-c-R: #D55E00;         /* US: Republicans */
+  --em-c-OTH: #009E73;       /* US: independents and others */
+  --em-tip-bg: #1F2A44;
+  --em-tip-fg: #FFFFFF;
+}
+.em-map { position: relative; max-width: 46rem; margin-block: 1rem; }
+.em-svg { width: 100%; height: auto; display: block; }
+.em-svg path { fill: var(--em-none); stroke: var(--em-stroke); stroke-width: 1; vector-effect: non-scaling-stroke; cursor: pointer; }
+.em-svg path.em-norace { fill: url(#em-hatch); }
+.em-svg path.em-none { fill: var(--em-none); }
+.em-svg path.em-p-PT { fill: var(--em-c-PT); } .em-svg path.em-p-PL { fill: var(--em-c-PL); }
+.em-svg path.em-p-D { fill: var(--em-c-D); } .em-svg path.em-p-R { fill: var(--em-c-R); } .em-svg path.em-p-OTH, .em-svg path.em-p-I { fill: var(--em-c-OTH); }
+.em-svg path.em-leading { fill-opacity: var(--em-leading-opacity); }
+.em-svg path.em-called { fill-opacity: 1; }
+.em-svg path:focus { outline: none; stroke: var(--em-focus); stroke-width: 2; }
+.em-tip { position: absolute; max-width: 15rem; padding: 0.4rem 0.6rem; background: var(--em-tip-bg); color: var(--em-tip-fg); font-size: 0.85rem; border-radius: 4px; pointer-events: none; z-index: 2; }
+.em-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; padding: 0; list-style: none; font-size: 0.9rem; }
+.em-sw { display: inline-block; width: 1rem; height: 1rem; vertical-align: -0.15rem; margin-inline-end: 0.35rem; border: 1px solid #999; }
+.em-sw.em-leading { opacity: var(--em-leading-opacity); }
+.em-source { font-size: 1rem; padding: 0.6rem 0.8rem; border-inline-start: 4px solid var(--accent, #243f5c); background: #f6f5f1; }
+.em-races button { font: inherit; padding: 0.3rem 0.8rem; margin-inline-end: 0.4rem; border: 1px solid var(--accent, #243f5c); background: transparent; border-radius: 3px; cursor: pointer; }
+.em-races button[aria-pressed="true"] { background: var(--accent, #243f5c); color: #fff; }
+.em-tablewrap { overflow-x: auto; }
+.em-credit { font-size: 0.85rem; color: var(--muted); }
+
+.em-sw.em-norace { background: repeating-linear-gradient(45deg, var(--em-norace) 0 3px, #ffffff 3px 5px) !important; }
