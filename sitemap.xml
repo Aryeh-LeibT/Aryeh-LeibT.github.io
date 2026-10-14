@@ -35,16 +35,40 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/brazil-2026/" />
   </url>
   <url>
+    <loc>https://aryehleibtoren.com/elections/brazil-2026/map/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/brazil-2026/map/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/brazil-2026/map/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/brazil-2026/map/" />
+  </url>
+  <url>
     <loc>https://aryehleibtoren.com/elections/israel-2026/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/israel-2026/" />
     <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/israel-2026/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/israel-2026/" />
   </url>
   <url>
+    <loc>https://aryehleibtoren.com/elections/israel-2026/split-or-resignation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/israel-2026/split-or-resignation/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/israel-2026/split-or-resignation/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/israel-2026/split-or-resignation/" />
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/elections/israel-2026/threshold/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/israel-2026/threshold/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/israel-2026/threshold/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/israel-2026/threshold/" />
+  </url>
+  <url>
     <loc>https://aryehleibtoren.com/elections/us-2026/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/us-2026/" />
     <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/us-2026/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/us-2026/" />
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/elections/us-2026/map/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/us-2026/map/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/us-2026/map/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/us-2026/map/" />
   </url>
   <url>
     <loc>https://aryehleibtoren.com/printables/</loc>
@@ -221,16 +245,40 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/brazil-2026/" />
   </url>
   <url>
+    <loc>https://aryehleibtoren.com/he/elections/brazil-2026/map/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/brazil-2026/map/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/brazil-2026/map/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/brazil-2026/map/" />
+  </url>
+  <url>
     <loc>https://aryehleibtoren.com/he/elections/israel-2026/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/israel-2026/" />
     <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/israel-2026/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/israel-2026/" />
   </url>
   <url>
+    <loc>https://aryehleibtoren.com/he/elections/israel-2026/split-or-resignation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/israel-2026/split-or-resignation/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/israel-2026/split-or-resignation/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/israel-2026/split-or-resignation/" />
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/elections/israel-2026/threshold/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/israel-2026/threshold/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/israel-2026/threshold/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/israel-2026/threshold/" />
+  </url>
+  <url>
     <loc>https://aryehleibtoren.com/he/elections/us-2026/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/us-2026/" />
     <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/us-2026/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/us-2026/" />
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/elections/us-2026/map/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/elections/us-2026/map/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/elections/us-2026/map/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/elections/us-2026/map/" />
   </url>
   <url>
     <loc>https://aryehleibtoren.com/he/torah/</loc>
