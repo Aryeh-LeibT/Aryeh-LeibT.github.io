@@ -1,0 +1,42 @@
+name: Elections data refresh
+# Opens a PR with refreshed election data. Never pushes to main.
+# Skips Friday 12:00 to Saturday 21:00 Israel time and Yom Tov (data/elections/yomtov.json).
+on:
+  schedule:
+    - cron: "17 */3 * * 0-5"   # every 3 hours, Sun-Fri UTC; the gate below handles Shabbat and Yom Tov
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: elections-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Shabbat and Yom Tov gate
+        id: gate
+        run: |
+          if python3 scripts/elections-refresh.py --gate; then echo "run=yes" >> "$GITHUB_OUTPUT"; else echo "run=no" >> "$GITHUB_OUTPUT"; fi
+      - name: Refresh and validate data
+        if: steps.gate.outputs.run == 'yes'
+        run: python3 scripts/elections-refresh.py
+      - name: Open a PR if data changed
+        if: steps.gate.outputs.run == 'yes'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- data/elections; then echo "No data changes."; exit 0; fi
+          BR="data-refresh/$(TZ=Asia/Jerusalem date +%Y%m%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add data/elections
+          git commit -m "Election data refresh $(TZ=Asia/Jerusalem date '+%d %b %Y %H:%M') IL"
+          git push origin "$BR"
+          gh pr create --base main --head "$BR" --title "Election data refresh ($BR)" --body "Automated data refresh from official sources. Review before merging; nothing goes live without Aryeh's yes."

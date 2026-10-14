@@ -1,0 +1,85 @@
+{
+  "label": "First round, 4 October 2026, share of valid votes, as reported by Senado Notícias at 99.97% of ballot boxes counted. The runoff count appears here on the night of 25 October 2026.",
+  "label_he": "סיבוב ראשון, 4 באוקטובר 2026, אחוז מהקולות הכשרים, כפי שדווח ב-Senado Notícias לאחר ספירת 99.97% מהקלפיות. ספירת הסיבוב השני תופיע כאן בליל 25 באוקטובר 2026.",
+  "round": "first",
+  "rows": [
+    {
+      "name": "Flávio Bolsonaro (PL)",
+      "value": 47.04,
+      "votes": 56098457,
+      "unit": "%",
+      "source": "Senado Notícias (Agência Senado), 4 Oct 2026, 23:02 Brasília, 99.97% counted",
+      "source_url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "note": "Same article's results list gives 47.05%; lead paragraph value used."
+    },
+    {
+      "name": "Lula (PT)",
+      "value": 45.15,
+      "votes": 53846396,
+      "unit": "%",
+      "source": "Senado Notícias (Agência Senado), 4 Oct 2026, 99.97% counted",
+      "source_url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "note": "Same article's results list gives 45.14%; lead paragraph value used."
+    },
+    {
+      "name": "Escritor Augusto Cury (Avante)",
+      "value": 2.89,
+      "votes": 3447885,
+      "unit": "%",
+      "source": "Senado Notícias, 4 Oct 2026",
+      "source_url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "name": "Renan Santos (Missão)",
+      "value": 2.25,
+      "votes": 2675584,
+      "unit": "%",
+      "source": "Senado Notícias, 4 Oct 2026",
+      "source_url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "note": "Results list in same article gives 2.24%."
+    },
+    {
+      "name": "Ronaldo Caiado (PSD)",
+      "value": 2.18,
+      "votes": null,
+      "unit": "%",
+      "source": "Senado Notícias, 4 Oct 2026",
+      "source_url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "note": "Vote count not given in article."
+    }
+  ],
+  "final_tse": {
+    "note": "single source; TSE final totalization (5 Oct 2026, 12:51 Brasília) as relayed by HubPolítico; confirm on resultados.tse.jus.br before display.",
+    "rows": [
+      {
+        "name": "Flávio Bolsonaro (PL)",
+        "value": 47.03,
+        "votes": 56104503,
+        "source": "HubPolítico citing TSE",
+        "source_url": "https://hubpolitico.com.br/eleicoes/2026/apuracao/presidente",
+        "retrieved_at": "2026-10-14T09:00:00+03:00",
+        "single_source": true
+      },
+      {
+        "name": "Lula (PT)",
+        "value": 45.16,
+        "votes": 53879538,
+        "source": "HubPolítico citing TSE",
+        "source_url": "https://hubpolitico.com.br/eleicoes/2026/apuracao/presidente",
+        "retrieved_at": "2026-10-14T09:00:00+03:00",
+        "single_source": true
+      }
+    ]
+  },
+  "turnout": {
+    "value": 78.92,
+    "unit": "% of registered voters",
+    "source_url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+    "retrieved_at": "2026-10-14T09:00:00+03:00"
+  }
+}

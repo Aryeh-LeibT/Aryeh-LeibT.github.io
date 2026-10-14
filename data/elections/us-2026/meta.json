@@ -1,0 +1,17 @@
+{
+  "id": "us-2026",
+  "updated": "2026-10-14T09:00:00+03:00",
+  "status": "upcoming",
+  "sources": [
+    {
+      "name": "IFES ElectionGuide",
+      "url": "https://www.electionguide.org/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "name": "Federal Election Commission",
+      "url": "https://www.fec.gov/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    }
+  ]
+}

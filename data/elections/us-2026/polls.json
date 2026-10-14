@@ -1,0 +1,64 @@
+{
+  "note": "Generic congressional ballot, individual polls only. Aggregator averages (RCP, Silver Bulletin, DDHQ average) deliberately not used.",
+  "rows": [
+    {
+      "pollster": "Rasmussen Reports / Pulse Opinion Research",
+      "fieldwork": "2026-10-01,2026-10-04/2026-10-07",
+      "published": "2026-10-12",
+      "sample": 1781,
+      "population": "LV",
+      "moe_pp": 2,
+      "values": {
+        "Democrat": 49,
+        "Republican": 44,
+        "Other": 2,
+        "Not sure": 5
+      },
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_oct12",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "pollster": "Cygnal",
+      "fieldwork": "2026-10-07/2026-10-10",
+      "sample": 1500,
+      "population": "LV",
+      "moe_pp": 2.5,
+      "values": {
+        "Democrat": 51,
+        "Republican": 42
+      },
+      "source_url": "https://data.ddhq.io/polls/2026/10/12/Cygnal-National",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "note": "The Hill's poll table lists fieldwork 8–11 Oct; Cygnal's own deck says 7–10 Oct (used)."
+    },
+    {
+      "pollster": "TrueDot.ai for NewsNation/DDHQ",
+      "fieldwork": "2026-10-05/2026-10-09",
+      "published": "2026-10-13",
+      "sample": 974,
+      "population": "LV",
+      "moe_pp": 3.2,
+      "values": {
+        "Democrat": 49,
+        "Republican": 42,
+        "Undecided": 8
+      },
+      "source_url": "https://thehill.com/homenews/campaign/6143963-democrats-lead-congressional-ballot-ddhq/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "pollster": "Morning Consult",
+      "fieldwork": "2026-10-06/2026-10-12",
+      "sample": 17654,
+      "population": "LV",
+      "values": {
+        "Democrat": 49.7,
+        "Republican": 43.1
+      },
+      "source_url": "https://elections2026.thehill.com/polls/generic-ballot/national/lv-rv-adults/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "single_source": true,
+      "note": "Seen only in The Hill/DDHQ table; replace with Morning Consult release."
+    }
+  ]
+}

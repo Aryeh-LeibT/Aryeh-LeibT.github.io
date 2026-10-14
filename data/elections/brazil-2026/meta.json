@@ -1,0 +1,22 @@
+{
+  "id": "brazil-2026",
+  "updated": "2026-10-14T09:00:00+03:00",
+  "status": "upcoming",
+  "sources": [
+    {
+      "name": "TSE results (official)",
+      "url": "https://resultados.tse.jus.br/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "name": "TSE open data portal",
+      "url": "https://dadosabertos.tse.jus.br/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "name": "Senado Notícias, 4 Oct 2026 (first-round results)",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    }
+  ]
+}

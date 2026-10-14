@@ -1,0 +1,126 @@
+{
+  "note": "Runoff polls, cited one by one. No averages. Values are % of total responses unless 'valid' given.",
+  "rows": [
+    {
+      "pollster": "Datafolha",
+      "client": "Folha de S.Paulo",
+      "fieldwork": "2026-10-06/2026-10-07",
+      "published": "2026-10-08",
+      "sample": 2520,
+      "moe_pp": 2,
+      "tse_registration": "BR-02949/2026",
+      "values": {
+        "Flávio Bolsonaro": 49,
+        "Lula": 45
+      },
+      "valid": {
+        "Flávio Bolsonaro": 52,
+        "Lula": 48
+      },
+      "source_url": "https://datafolha.folha.uol.com.br/eleicoes/2026/10/flavio-bolsonaro-pl-tem-49-na-largada-do-2o-turno-contra-45-de-lula-pt.shtml",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "note": "Datafolha page states fieldwork 6–7 Oct; Folha de Patrocínio lists 6–8 Oct. Page header dated 13 Oct; other outlets report release 8 Oct. Use Datafolha's own fieldwork dates."
+    },
+    {
+      "pollster": "AtlasIntel",
+      "published": "2026-10-09",
+      "fieldwork": "2026-10-03/2026-10-08",
+      "moe_pp": 1,
+      "tse_registration": "BR-03663/2026",
+      "values": {
+        "Flávio Bolsonaro": 51.1,
+        "Lula": 45.7
+      },
+      "valid": {
+        "Flávio Bolsonaro": 52.8,
+        "Lula": 47.2
+      },
+      "sample": null,
+      "source_url": "https://folhadepatrocinio.com/noticias/quadro-das-pesquisas/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "single_source": true,
+      "note": "Single secondary source; sample size not given. Replace with AtlasIntel release link."
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "published": "2026-10-08",
+      "fieldwork": "2026-10-05/2026-10-07",
+      "moe_pp": 1.8,
+      "tse_registration": "BR-08134/2026",
+      "values": {
+        "Flávio Bolsonaro": 49,
+        "Lula": 44
+      },
+      "valid": {
+        "Flávio Bolsonaro": 53,
+        "Lula": 47
+      },
+      "sample": null,
+      "source_url": "https://folhadepatrocinio.com/noticias/quadro-das-pesquisas/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "single_source": true
+    },
+    {
+      "pollster": "Ipespe",
+      "published": "2026-10-10",
+      "fieldwork": "2026-10-06/2026-10-08",
+      "moe_pp": 2.6,
+      "tse_registration": "BR-00933/2026",
+      "values": {
+        "Flávio Bolsonaro": 49,
+        "Lula": 44
+      },
+      "valid": {
+        "Flávio Bolsonaro": 52.7,
+        "Lula": 47.3
+      },
+      "sample": null,
+      "source_url": "https://folhadepatrocinio.com/noticias/quadro-das-pesquisas/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "single_source": true
+    },
+    {
+      "pollster": "Vox Brasil",
+      "published": "2026-10-09",
+      "fieldwork": "2026-10-05/2026-10-07",
+      "moe_pp": 2.15,
+      "tse_registration": "BR-09623/2026",
+      "values": {
+        "Flávio Bolsonaro": 42.7,
+        "Lula": 44.2
+      },
+      "valid": {
+        "Flávio Bolsonaro": 49.1,
+        "Lula": 50.9
+      },
+      "sample": null,
+      "source_url": "https://folhadepatrocinio.com/noticias/quadro-das-pesquisas/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00",
+      "single_source": true
+    }
+  ],
+  "pending": [
+    {
+      "pollster": "Quaest",
+      "fieldwork": "2026-10-10/2026-10-13",
+      "sample": 2154,
+      "tse_registration": "BR-08729/2026",
+      "release": "2026-10-14",
+      "values": {},
+      "note": "Not released/verified at retrieval; left empty. Source of schedule: VEJA.",
+      "source_url": "https://veja.abril.com.br/politica/as-novas-pesquisas-quaest-e-datafolha-sobre-a-disputa-entre-flavio-e-lula-no-segundo-turno/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "pollster": "Datafolha",
+      "fieldwork": "2026-10-13/2026-10-15",
+      "sample": 2520,
+      "tse_registration": "BR-00466/2026",
+      "release": "2026-10-15",
+      "values": {},
+      "note": "Scheduled; left empty.",
+      "source_url": "https://veja.abril.com.br/politica/as-novas-pesquisas-quaest-e-datafolha-sobre-a-disputa-entre-flavio-e-lula-no-segundo-turno/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    }
+  ]
+}
