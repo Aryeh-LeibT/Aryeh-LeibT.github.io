@@ -101,6 +101,9 @@
     var holder = main.querySelector(".em-map");
     holder.innerHTML = res[0]; holder.appendChild(tip);
     var svgEl = holder.querySelector("svg");
+    var NS="http://www.w3.org/2000/svg", defs=document.createElementNS(NS,"defs");
+    defs.innerHTML='<pattern id="em-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--em-norace)" style="fill:var(--em-norace)"/><line x1="0" y1="0" x2="0" y2="6" stroke="#ffffff" stroke-width="2"/></pattern>';
+    svgEl.insertBefore(defs, svgEl.firstChild);
     svgEl.setAttribute("aria-label", main.dataset.mapLabel || svgEl.getAttribute("aria-label"));
     render(svgEl);
     svgEl.addEventListener("mousemove", function (e) { if (e.target.dataset && e.target.dataset.st) show(e.target, e); });
