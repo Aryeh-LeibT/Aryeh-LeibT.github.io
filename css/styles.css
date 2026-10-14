@@ -20,12 +20,12 @@ body {
 }
 .skip {
   position: absolute;
-  left: -999px;
+  inset-inline-start: -999px;
   top: 0;
   background: var(--card);
   padding: 0.5rem 1rem;
 }
-.skip:focus { left: 1rem; top: 1rem; z-index: 2; }
+.skip:focus { inset-inline-start: 1rem; top: 1rem; z-index: 2; }
 a { color: var(--accent); }
 a[aria-current="page"] { font-weight: 700; text-decoration: none; color: var(--ink); }
 .nav {
@@ -106,7 +106,7 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 }
 .prose p { margin: 0 0 1rem; }
 .prose .project-list { margin-top: 1.5rem; }
-.contact-list { padding-left: 1.2rem; }
+.contact-list { padding-inline-start: 1.2rem; }
 .contact-list li { margin: 0.45rem 0; }
 .site-footer {
   padding: 1.15rem 8vw 1.75rem;
@@ -122,7 +122,7 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
   .hero { grid-template-columns: 1fr; padding: 2.25rem 6vw 1rem; }
   .portrait { max-width: 200px; }
   .nav { flex-direction: column; align-items: flex-start; }
-  .projects, .prose, .site-footer { padding-left: 6vw; padding-right: 6vw; }
+  .projects, .prose, .site-footer { padding-inline: 6vw; }
 }
 
 .card-title { font-size: 1.15rem; color: var(--ink); }
@@ -131,7 +131,7 @@ h2 { margin: 0 0 1rem; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.0
 .essay-back { margin-top: 2.5rem; }
 
 .essay table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.5rem; font-size: 0.95rem; }
-.essay th, .essay td { border: 1px solid var(--line); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+.essay th, .essay td { border: 1px solid var(--line); padding: 0.4rem 0.6rem; text-align: start; vertical-align: top; }
 .essay th { background: var(--card); }
 
 /* ---- Animation: gentle hover/focus transitions ---- */
@@ -161,13 +161,13 @@ main { animation: fade-in 400ms ease-out both; }
 .site-footer .fa-solid,
 .site-footer .fa-brands,
 .prose .fa-solid,
-.prose .fa-brands { margin-right: 0.3em; }
+.prose .fa-brands { margin-inline-end: 0.3em; }
 .site-footer .footer-copy { margin-top: 0.35rem; font-size: 0.9rem; }
 
 /* ---- Back-to-top button (created by js/site.js) ---- */
 .back-to-top {
   position: fixed;
-  right: 1.25rem;
+  inset-inline-end: 1.25rem;
   bottom: 1.25rem;
   padding: 0.45rem 0.8rem;
   font: inherit;
@@ -226,8 +226,7 @@ main { animation: fade-in 400ms ease-out both; }
 
 .ios-install-tip {
   position: fixed;
-  left: 1rem;
-  right: 1rem;
+  inset-inline: 1rem;
   bottom: 1rem;
   z-index: 4;
   max-width: 28rem;
@@ -235,7 +234,8 @@ main { animation: fade-in 400ms ease-out both; }
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 0.75rem 0.85rem 0.75rem 1rem;
+  padding-block: 0.75rem;
+  padding-inline: 1rem 0.85rem;
   color: var(--ink);
   background: var(--card);
   border: 1px solid var(--accent);
@@ -265,3 +265,38 @@ main { animation: fade-in 400ms ease-out both; }
   .ios-install-tip { transition: none; transform: none; }
   .install-app { transition: none; }
 }
+
+/* ---- Language switcher (English <-> Hebrew), at the top of the page ---- */
+.lang-switch {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 1rem 8vw 0;
+  text-align: end;
+  font-size: 0.95rem;
+}
+.lang-switch + .hero,
+.lang-switch + .prose { padding-top: 1.5rem; }
+@media (max-width: 640px) {
+  .lang-switch { padding-inline: 6vw; }
+}
+
+/* ---- Hebrew pages (<html lang="he" dir="rtl">) ---- */
+/* Frank Ruhl Libre, self-hosted (SIL Open Font License, see /fonts/frank-ruhl-libre/OFL.txt).
+   The unicode-range means the file is only downloaded when Hebrew letters are shown
+   in this font, so English pages never load it. Latin text on Hebrew pages stays in Georgia. */
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url("/fonts/frank-ruhl-libre/frank-ruhl-libre-hebrew-wght.woff2") format("woff2");
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+html:lang(he) body,
+[dir="rtl"] body {
+  font-family: "Frank Ruhl Libre", Georgia, "Noto Serif Hebrew", "David", "Times New Roman", serif;
+}
+html:lang(he) h2,
+[dir="rtl"] h2 { letter-spacing: 0; }
+/* English footer links on Hebrew pages: keep each icon next to its own label. */
+[dir="rtl"] .site-footer a { unicode-bidi: isolate; }
