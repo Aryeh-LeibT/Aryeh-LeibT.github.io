@@ -1,4 +1,5 @@
 {
-  "note": "Empty. Seat math is supplied by Grok and labelled as our projection.",
-  "rows": []
+  "note": "Empty on purpose. Our Bader-Ofer projection needs vote shares; published polls give seats only. Filled from CEC results on the night of 27 October 2026. Surplus-vote agreements (due 16 October 2026) to be entered from the CEC once published.",
+  "rows": [],
+  "surplus_agreements": []
 }

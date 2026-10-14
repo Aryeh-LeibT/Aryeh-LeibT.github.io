@@ -1,5 +1,5 @@
 {
-  "note": "Yom Tov dates in Israel (5787-5788). The refresh never runs on these dates, nor from 12:00 on the day before, in addition to every Friday 12:00 to Saturday 21:00 Israel time.",
+  "note": "Yom Tov dates in Israel, 5787-5788, checked against hebcal.com (Israel mode) on 14 Oct 2026. Each holy day (every Saturday and these dates) pauses the refresh from 12:00 the day before until 21:00 on the day; adjacent pauses merge into one block.",
   "dates": [
     "2026-09-12",
     "2026-09-13",
@@ -13,6 +13,9 @@
     "2027-10-03",
     "2027-10-11",
     "2027-10-16",
-    "2027-10-23"
+    "2027-10-23",
+    "2028-04-11",
+    "2028-04-17",
+    "2028-05-31"
   ]
 }

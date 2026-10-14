@@ -10,12 +10,18 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 D = ROOT / "data" / "elections"
 
 def blocked(now):
-    if now.weekday() == 4 and now.hour >= 12: return "Shabbat (Friday afternoon)"
-    if now.weekday() == 5 and now.hour < 21: return "Shabbat"
-    days = set(json.loads((D / "yomtov.json").read_text())["dates"])
-    today = now.date().isoformat(); tomorrow = (now.date() + datetime.timedelta(days=1)).isoformat()
-    if today in days and not (now.hour >= 21 and tomorrow not in days): return "Yom Tov"
-    if tomorrow in days and now.hour >= 12: return "Erev Yom Tov"
+    """Every Saturday and every Yom Tov date is a holy day, paused from 12:00 the day
+    before until 21:00 on the day. Adjacent holy days overlap, so Shabbat next to
+    Yom Tov becomes one continuous block."""
+    yt = set(json.loads((D / "yomtov.json").read_text())["dates"])
+    today = now.date()
+    for d in (today, today + datetime.timedelta(days=1)):
+        holy = d.weekday() == 5 or d.isoformat() in yt
+        if not holy: continue
+        start = datetime.datetime.combine(d - datetime.timedelta(days=1), datetime.time(12), now.tzinfo)
+        end = datetime.datetime.combine(d, datetime.time(21), now.tzinfo)
+        if start <= now < end:
+            return ("Shabbat" if d.weekday() == 5 else "") + (" and " if d.weekday() == 5 and d.isoformat() in yt else "") + ("Yom Tov" if d.isoformat() in yt else "")
     return None
 
 def validate():
