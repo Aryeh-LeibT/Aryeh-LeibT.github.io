@@ -17,6 +17,15 @@
 [dir="rtl"] body { font-family: "Gelasio", "Noto Serif Hebrew", "David", serif; }
 .el-article { max-width: 44rem; }
 .el-more { margin-block: 1rem; font-weight: 600; }
+/* Israel votes/seats charts (scripts/build-israel-charts.py) */
+.ilc svg { width: 100%; max-width: 44rem; height: auto; display: block; margin-block: 0.75rem 0.5rem; }
+.ilc h3 { margin-block-start: 1.75rem; }
+.ilc-tag { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; border: 1px solid var(--muted); color: var(--muted); padding: 0.05rem 0.4rem; border-radius: 3px; vertical-align: middle; }
+[dir="rtl"] .ilc-tag { text-transform: none; letter-spacing: 0; }
+.ilc-scroll { overflow-x: auto; }
+.ilc-polls small { font-weight: 400; color: var(--muted); }
+.ilc-tbl summary { cursor: pointer; color: var(--muted); font-size: 0.95rem; }
+
 
 /* Election-night maps (js/election-map.js). Restyle here: every colour is a variable. */
 .em-page {
