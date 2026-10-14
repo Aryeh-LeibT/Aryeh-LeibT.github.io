@@ -68,5 +68,5 @@ jobs:
           git commit -m "Election-night data $(TZ=Asia/Jerusalem date '+%d %b %H:%M') IL (${{ steps.race.outputs.race }})"
           git push origin "$BR"
           if [ -z "$(gh pr list --head "$BR" --state open --json number --jq '.[].number')" ]; then
-            gh pr create --base main --head "$BR" --title "Election-night data: ${{ steps.race.outputs.race }}" --body "Data-only update from official sources (see docs/election-night-plan.md). Merge only after a check, with CI green, never on Shabbat or Yom Tov."
+            gh pr create --base main --head "$BR" --title "Election-night data: ${{ steps.race.outputs.race }}" --body "Data-only update from official sources (see _docs/election-night-plan.md). Merge only after a check, with CI green, never on Shabbat or Yom Tov."
           fi

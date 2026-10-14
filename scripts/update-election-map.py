@@ -5,7 +5,7 @@ It only writes JSON files. It never commits, pushes, opens PRs or merges.
   init br|us                      write pre-election placeholders (every state 'no results')
   br [--cycle ele2026] [--election 6258] [--fixture-dir DIR]
                                   fetch the TSE public results JSON for all 27 UFs
-  us --csv FILE                   build the US file from a hand-checked CSV (see docs/election-night-plan.md)
+  us --csv FILE                   build the US file from a hand-checked CSV (see _docs/election-night-plan.md)
   validate                        check both files against the schema and the 'called' rule
   test                            parse the bundled 2026 first-round TSE sample (São Paulo)
 
