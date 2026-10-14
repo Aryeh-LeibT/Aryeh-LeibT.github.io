@@ -1,0 +1,17 @@
+/* Election Tracker: builds on css/styles.css variables */
+.el-dek { color: var(--muted); font-size: 1.05rem; }
+.el-updated { font-size: 0.9rem; color: var(--muted); }
+.el-list { padding-inline-start: 1.2rem; }
+.el-list li { margin-block: 0.9rem; }
+.el-status, .el-countdown { font-size: 0.9rem; color: var(--muted); }
+.el-chart svg { width: 100%; max-width: 32rem; height: auto; display: block; margin-block: 1rem; }
+.el-table { border-collapse: collapse; width: 100%; max-width: 40rem; }
+.el-table th, .el-table td { text-align: start; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--muted); }
+.el-note, .el-empty { font-size: 0.95rem; color: var(--muted); }
+.el-slot:empty { display: none; }
+.el-math { margin-block: 1.5rem; padding: 0.75rem 1rem; border: 1px solid var(--accent); border-radius: 4px; background: var(--card); }
+.el-math summary { cursor: pointer; font-weight: 600; }
+.el-math code { font-size: 0.95em; }
+.el-credit { font-size: 0.85rem; color: var(--muted); }
+[dir="rtl"] .el-list { padding-inline-start: 1.2rem; }
+[dir="rtl"] body { font-family: "Gelasio", "Noto Serif Hebrew", "David", serif; }

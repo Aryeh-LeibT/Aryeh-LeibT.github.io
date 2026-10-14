@@ -1,0 +1,13 @@
+{
+  "note": "Empty until polls are entered by hand, each with outlet, pollster, date, sample and source URL.",
+  "schema": {
+    "outlet": "",
+    "pollster": "",
+    "date": "YYYY-MM-DD",
+    "sample": 0,
+    "values": {},
+    "source_url": "",
+    "retrieved_at": ""
+  },
+  "rows": []
+}

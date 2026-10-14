@@ -1,0 +1,23 @@
+{
+  "label": "First round, 4 October 2026, share of valid votes. The runoff count appears here on the night of 25 October 2026.",
+  "label_he": "סיבוב ראשון, 4 באוקטובר 2026, אחוז מהקולות הכשרים. ספירת הסיבוב השני תופיע כאן בליל 25 באוקטובר 2026.",
+  "round": "first",
+  "rows": [
+    {
+      "name": "Flávio Bolsonaro (PL)",
+      "value": 47.0,
+      "unit": "%",
+      "source": "Senado Notícias, 4 Oct 2026",
+      "source_url": "https://www12.senado.leg.br/noticias",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "name": "Lula (PT)",
+      "value": 45.2,
+      "unit": "%",
+      "source": "Senado Notícias, 4 Oct 2026",
+      "source_url": "https://www12.senado.leg.br/noticias",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "note": "Yom Tov dates in Israel (5787-5788). The refresh never runs on these dates, nor from 12:00 on the day before, in addition to every Friday 12:00 to Saturday 21:00 Israel time.",
+  "dates": [
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-21",
+    "2026-09-26",
+    "2026-10-03",
+    "2027-04-22",
+    "2027-04-28",
+    "2027-06-11",
+    "2027-10-02",
+    "2027-10-03",
+    "2027-10-11",
+    "2027-10-16",
+    "2027-10-23"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "brazil-2026",
+  "updated": "2026-10-14T09:00:00+03:00",
+  "status": "upcoming",
+  "sources": [
+    {
+      "name": "TSE results (official)",
+      "url": "https://resultados.tse.jus.br/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "name": "TSE open data portal",
+      "url": "https://dadosabertos.tse.jus.br/",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    },
+    {
+      "name": "Senado Notícias",
+      "url": "https://www12.senado.leg.br/noticias",
+      "retrieved_at": "2026-10-14T09:00:00+03:00"
+    }
+  ]
+}
