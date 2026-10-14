@@ -15,3 +15,5 @@
 .el-credit { font-size: 0.85rem; color: var(--muted); }
 [dir="rtl"] .el-list { padding-inline-start: 1.2rem; }
 [dir="rtl"] body { font-family: "Gelasio", "Noto Serif Hebrew", "David", serif; }
+.el-article { max-width: 44rem; }
+.el-more { margin-block: 1rem; font-weight: 600; }
