@@ -1,6 +1,6 @@
 {
   "election": "Elections to the 26th Knesset, 27 October 2026",
-  "updated": "2026-10-14T16:00:00+03:00",
+  "updated": "2026-10-14T16:30:00+03:00",
   "threshold_pct": 3.25,
   "seats_total": 120,
   "majority": 61,
@@ -76,9 +76,9 @@
       "he": "לא משויכת לגוש"
     }
   },
-  "bloc_note": "Bloc grouping follows the grouping used by the cited outlets (Channel 12, Maariv, Channel 13); it describes reported alignment, not a forecast of any coalition.",
+  "bloc_note": "Bloc grouping follows the grouping used by the cited outlets (Channel 12, Walla, Kan 11, Maariv, Channel 13); it describes reported alignment, not a forecast of any coalition.",
   "average": {
-    "method": "Simple unweighted mean of the seat figures published by the Channel 12, Maariv and Channel 13 polls listed here. A list a poll reported below the threshold counts as 0 for that poll. This is not a vote-share model and not a Bader-Ofer projection; figures are rounded to one decimal and need not add up to 120.",
+    "method": "Simple unweighted mean of the seat figures published by the Channel 12, Channel 14, Walla, Kan 11, Maariv and Channel 13 polls listed here. A list a poll reported below the threshold counts as 0 for that poll. This is not a vote-share model and not a Bader-Ofer projection; figures are rounded to one decimal and need not add up to 120.",
     "polls_window": "2026-10-07/2026-10-12"
   },
   "polls": [
@@ -104,8 +104,82 @@
         "Reservists–Economic Party": 4,
         "Amcha Yisrael": 0
       },
-      "source_url": "https://www.walla.co.il/news/politics/383957200",
-      "source_url_2": "https://www.israelnationalnews.com/news/434503"
+      "source_url": "https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm",
+      "source_url_2": "https://www.walla.co.il/news/politics/383957200"
+    },
+    {
+      "outlet": "Channel 14 News",
+      "pollster": "Next Data (analysis: Shlomo Filber)",
+      "date": "2026-10-12",
+      "sample": 538,
+      "in_average": true,
+      "values": {
+        "Likud": 29,
+        "Yashar": 20,
+        "Shas": 10,
+        "The Democrats": 10,
+        "United Torah Judaism": 8,
+        "Joint List": 8,
+        "Religious Zionism–Zehut": 7,
+        "Otzma Yehudit": 7,
+        "B'Yachad": 7,
+        "Yisrael Beytenu": 5,
+        "Ra'am": 5,
+        "Reservists–Economic Party": 4,
+        "Amcha Yisrael": 0
+      },
+      "source_url": "https://www.c14.co.il/article/1735305",
+      "source_url_2": "https://votendi.com/election-polls/320/"
+    },
+    {
+      "outlet": "Walla",
+      "pollster": "Lazar Research / Panel4All",
+      "date": "2026-10-12",
+      "sample": 601,
+      "in_average": true,
+      "values": {
+        "Yashar": 22,
+        "Likud": 20,
+        "B'Yachad": 13,
+        "The Democrats": 10,
+        "Yisrael Beytenu": 9,
+        "Otzma Yehudit": 8,
+        "Shas": 7,
+        "Joint List": 8,
+        "United Torah Judaism": 8,
+        "Religious Zionism–Zehut": 6,
+        "Ra'am": 5,
+        "Reservists–Economic Party": 4,
+        "Amcha Yisrael": 0
+      },
+      "source_url": "https://www.walla.co.il/news/politics/383957251",
+      "published": "2026-10-13",
+      "moe_pp": 4.0,
+      "source_url_2": "https://www.jfeed.com/news-israel/tmuh9z"
+    },
+    {
+      "outlet": "Kan 11 News",
+      "pollster": "Kantar Israel",
+      "date": "2026-10-11",
+      "sample": null,
+      "in_average": true,
+      "values": {
+        "Yashar": 22,
+        "Likud": 20,
+        "B'Yachad": 12,
+        "Otzma Yehudit": 9,
+        "The Democrats": 8,
+        "Yisrael Beytenu": 8,
+        "United Torah Judaism": 8,
+        "Joint List": 8,
+        "Shas": 7,
+        "Religious Zionism–Zehut": 5,
+        "Ra'am": 5,
+        "Amcha Yisrael": 4,
+        "Reservists–Economic Party": 4
+      },
+      "source_url": "https://www.kan.org.il/content/kan-news/politic/1108256/",
+      "source_url_2": "https://www.israelnationalnews.com/flashes/695156"
     },
     {
       "outlet": "Maariv",
@@ -135,7 +209,7 @@
     },
     {
       "outlet": "Channel 13 News",
-      "pollster": "not named in the cited reports",
+      "pollster": "HaMidgam Project, Stat-Net, Askaria and HaMadad (Shmuel Rosner, Noah Slepkov)",
       "date": "2026-10-07",
       "sample": 1013,
       "moe_pp": 2.5,
@@ -155,32 +229,8 @@
         "Amcha Yisrael": 5,
         "Reservists–Economic Party": 0
       },
-      "source_url": "https://www.jpost.com/israel-election-2026/article-911262",
-      "source_url_2": "https://votendi.com/election-polls/298/"
-    },
-    {
-      "outlet": "Walla",
-      "pollster": "Lazar Research / Panel4All",
-      "date": "2026-10-13",
-      "sample": null,
-      "in_average": false,
-      "single_source": true,
-      "values": {
-        "Yashar": 22,
-        "Likud": 20,
-        "B'Yachad": 13,
-        "The Democrats": 10,
-        "Yisrael Beytenu": 9,
-        "Otzma Yehudit": 8,
-        "Shas": 7,
-        "Joint List": 8,
-        "United Torah Judaism": 8,
-        "Religious Zionism–Zehut": 6,
-        "Ra'am": 5,
-        "Reservists–Economic Party": 4,
-        "Amcha Yisrael": 0
-      },
-      "source_url": "https://thestateofisrael.com/polls/2026-10-13-lazar-research-panel4all"
+      "source_url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+      "source_url_2": "https://www.jpost.com/israel-election-2026/article-911262"
     }
   ],
   "results_2022": {
