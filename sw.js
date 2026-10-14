@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v3-20261014"; // v3: mobile layout fixes (home tiles, scrollable Israel charts)
+const VERSION = "v4-20261014"; // v4: Hebrew map legend names + Hebrew byline
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
