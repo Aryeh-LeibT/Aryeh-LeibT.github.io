@@ -7,12 +7,14 @@
   {
    "id": "13",
    "name": "Lula",
-   "party": "PT"
+   "party": "PT",
+   "name_he": "לולה"
   },
   {
    "id": "22",
    "name": "Flávio Bolsonaro",
-   "party": "PL"
+   "party": "PL",
+   "name_he": "פלביו בולסונרו"
   }
  ],
  "boundaries": {
@@ -29,14 +31,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -54,14 +58,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -79,14 +85,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -104,14 +112,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -129,14 +139,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -154,14 +166,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -179,14 +193,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -204,14 +220,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -229,14 +247,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -254,14 +274,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -279,14 +301,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -304,14 +328,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -329,14 +355,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -354,14 +382,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -379,14 +409,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -404,14 +436,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -429,14 +463,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -454,14 +490,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -479,14 +517,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -504,14 +544,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -529,14 +571,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -554,14 +598,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -579,14 +625,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -604,14 +652,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -629,14 +679,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -654,14 +706,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,
@@ -679,14 +733,16 @@
      "name": "Lula",
      "party": "PT",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "לולה"
     },
     {
      "id": "22",
      "name": "Flávio Bolsonaro",
      "party": "PL",
      "votes": null,
-     "pct": null
+     "pct": null,
+     "name_he": "פלביו בולסונרו"
     }
    ],
    "reporting_pct": null,

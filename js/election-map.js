@@ -22,6 +22,7 @@
   }
   function isCalled(r) { return r && r.status === "called" && !!r.called_by; }
   function partyKey(c) { return c ? String(c.party || "").replace(/[^A-Za-z0-9]/g, "") : ""; }
+  function nm(c) { return c ? (he && c.name_he ? c.name_he : c.name) : ""; }
   function num(n) { return n == null ? "–" : Number(n).toLocaleString(he ? "he-IL" : "en-US"); }
 
   var tip = document.createElement("div");
@@ -43,10 +44,10 @@
       text = T.none;
     } else {
       leader = r.candidates[0];
-      text = r.candidates.slice(0, 3).map(function (c) { return c.name + (c.party ? " (" + c.party + ")" : "") + " " + (c.pct != null ? c.pct.toFixed(1) + "%" : num(c.votes)); }).join(" · ");
+      text = r.candidates.slice(0, 3).map(function (c) { return nm(c) + (c.party ? " (" + c.party + ")" : "") + " " + (c.pct != null ? c.pct.toFixed(1) + "%" : num(c.votes)); }).join(" · ");
     }
     var st = r.status === "no results" || !leader ? T.none : isCalled(r) ? T.called + " (" + T.by + " " + r.called_by + ")" : T.leading;
-    if (leader && r.status !== "no results") text = (leader.name || "") + ": " + st + " · " + text;
+    if (leader && r.status !== "no results") text = (nm(leader) || "") + ": " + st + " · " + text;
     if (r.reporting_pct != null) text += " · " + r.reporting_pct + "% " + T.reporting;
     return { s: s, r: r, leader: r.status === "no results" ? null : leader, text: text, st: st };
   }
@@ -68,7 +69,7 @@
     Object.keys(data.states).sort(function (a, b) { return data.states[a].name.localeCompare(data.states[b].name); }).forEach(function (k) {
       var v = view(k); if (!v || (!v.r && raceKey)) return;
       var tr = document.createElement("tr");
-      [v.s.name, v.leader ? v.leader.name + (v.leader.party && raceKey !== "house" ? " (" + v.leader.party + ")" : "") : "–", v.st || T.none,
+      [v.s.name, v.leader ? nm(v.leader) + (v.leader.party && raceKey !== "house" ? " (" + v.leader.party + ")" : "") : "–", v.st || T.none,
        v.r.reporting_pct != null ? v.r.reporting_pct + "%" : "–", v.text, fmtTime(v.r.updated_at)].forEach(function (c, i) {
         var td = document.createElement(i ? "td" : "th"); if (!i) td.scope = "row"; td.textContent = c; tr.appendChild(td);
       });
