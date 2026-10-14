@@ -22,7 +22,8 @@ BR_FILE, US_FILE = D / "brazil-2026-map.json", D / "us-2026-map.json"
 STATUSES = ("no results", "leading", "called")
 TSE = "https://resultados.tse.jus.br/oficial/{cycle}/{ele}/dados/{uf}/{uf}-c0001-e{ele:0>6}-u.json"
 UFS = {"AC":"Acre","AL":"Alagoas","AM":"Amazonas","AP":"Amapá","BA":"Bahia","CE":"Ceará","DF":"Distrito Federal","ES":"Espírito Santo","GO":"Goiás","MA":"Maranhão","MG":"Minas Gerais","MS":"Mato Grosso do Sul","MT":"Mato Grosso","PA":"Pará","PB":"Paraíba","PE":"Pernambuco","PI":"Piauí","PR":"Paraná","RJ":"Rio de Janeiro","RN":"Rio Grande do Norte","RO":"Rondônia","RR":"Roraima","RS":"Rio Grande do Sul","SC":"Santa Catarina","SE":"Sergipe","SP":"São Paulo","TO":"Tocantins"}
-BR_CANDS = [{"id": "13", "name": "Lula", "party": "PT"}, {"id": "22", "name": "Flávio Bolsonaro", "party": "PL"}]
+BR_CANDS = [{"id": "13", "name": "Lula", "name_he": "לולה", "party": "PT"}, {"id": "22", "name": "Flávio Bolsonaro", "name_he": "פלביו בולסונרו", "party": "PL"}]
+BR_HE = {c["id"]: c["name_he"] for c in BR_CANDS}
 US = {"AL":("Alabama",7),"AK":("Alaska",1),"AZ":("Arizona",9),"AR":("Arkansas",4),"CA":("California",52),"CO":("Colorado",8),"CT":("Connecticut",5),"DE":("Delaware",1),"DC":("District of Columbia",0),"FL":("Florida",28),"GA":("Georgia",14),"HI":("Hawaii",2),"ID":("Idaho",2),"IL":("Illinois",17),"IN":("Indiana",9),"IA":("Iowa",4),"KS":("Kansas",4),"KY":("Kentucky",6),"LA":("Louisiana",6),"ME":("Maine",2),"MD":("Maryland",8),"MA":("Massachusetts",9),"MI":("Michigan",13),"MN":("Minnesota",8),"MS":("Mississippi",4),"MO":("Missouri",8),"MT":("Montana",2),"NE":("Nebraska",3),"NV":("Nevada",4),"NH":("New Hampshire",2),"NJ":("New Jersey",12),"NM":("New Mexico",3),"NY":("New York",26),"NC":("North Carolina",14),"ND":("North Dakota",1),"OH":("Ohio",15),"OK":("Oklahoma",5),"OR":("Oregon",6),"PA":("Pennsylvania",17),"RI":("Rhode Island",2),"SC":("South Carolina",7),"SD":("South Dakota",1),"TN":("Tennessee",9),"TX":("Texas",38),"UT":("Utah",4),"VT":("Vermont",1),"VA":("Virginia",11),"WA":("Washington",10),"WV":("West Virginia",2),"WI":("Wisconsin",8),"WY":("Wyoming",1)}
 # Regular Senate class II seats plus the 2026 special elections (Ohio, Florida).
 SENATE = "AL AK AR CO DE GA ID IL IA KS KY LA ME MA MI MN MS MT NE NH NJ NM NC OK OR RI SC SD TN TX VA WV WY".split()
@@ -103,6 +104,7 @@ def parse_tse(doc, uf):
             for c in p["cand"]:
                 cands.append({"id": c["n"], "name": c["nmu"].title(), "party": p["sg"], "votes": int(c["vap"]),
                               "pct": float(c["pvapn"].replace(",", "."))})
+                if str(c["n"]) in BR_HE: cands[-1]["name_he"] = BR_HE[str(c["n"])]
     cands.sort(key=lambda c: -c["votes"])
     rep = float(doc["s"]["pstn"].replace(",", "."))
     d, m, y = doc["dg"].split("/"); hh, mm, ss = doc["hg"].split(":")
@@ -128,7 +130,7 @@ def br(a):
     write(BR_FILE, out)
 
 def us(a):
-    """CSV columns: state,race,candidate,party,votes,pct,reporting_pct,status,called_by,source_name,source_url,updated_at,won,leading
+    """CSV columns: state,race,candidate,candidate_he (optional, Hebrew name for /he/ pages),party,votes,pct,reporting_pct,status,called_by,source_name,source_url,updated_at,won,leading
     race is senate | senate_special | governor | house. For house rows, candidate is blank, party is D/R/other,
     won/leading are seat counts. Rows for one state+race replace that race entirely."""
     out = json.loads(US_FILE.read_text()); seen = {}
@@ -147,6 +149,7 @@ def us(a):
             r["tally"][row["party"].strip()] = {"won": int(row.get("won") or 0), "leading": int(row.get("leading") or 0)}
         else:
             r["candidates"].append({"name": row["candidate"].strip(), "party": row["party"].strip(),
+                                    **({"name_he": row["candidate_he"].strip()} if (row.get("candidate_he") or "").strip() else {}),
                                     "votes": int(row["votes"]) if row.get("votes") else None,
                                     "pct": float(row["pct"]) if row.get("pct") else None})
             r["candidates"].sort(key=lambda c: -(c["votes"] or 0))
