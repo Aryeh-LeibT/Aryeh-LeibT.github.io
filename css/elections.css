@@ -16,7 +16,4 @@
 [dir="rtl"] .el-list { padding-inline-start: 1.2rem; }
 [dir="rtl"] body { font-family: "Gelasio", "Noto Serif Hebrew", "David", serif; }
 .el-article { max-width: 44rem; }
-.el-article .el-table { margin-block: 1rem; font-size: 0.95rem; }
-.el-article .el-table thead th { border-bottom: 2px solid var(--accent); }
-.el-table td:nth-child(3), .el-table td:nth-child(4) { font-variant-numeric: tabular-nums; }
 .el-more { margin-block: 1rem; font-weight: 600; }
