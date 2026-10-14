@@ -96,6 +96,9 @@
   </url>
   <url>
     <loc>https://aryehleibtoren.com/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/writing/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/writing/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/writing/" />
   </url>
   <url>
     <loc>https://aryehleibtoren.com/writing/911-erev-rh-memory.html</loc>
@@ -285,5 +288,47 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/torah/" />
     <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/torah/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/torah/" />
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aryehleibtoren.com/writing/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://aryehleibtoren.com/he/writing/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aryehleibtoren.com/writing/" />
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/1318-names/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/ayeka-7-oct-at-three/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/ayeka-short/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/named-for-no-one/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/odfim-heskem-odafim/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/one-more-seat/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/right-or-palestine/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/the-61-that-isnt-there/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/the-gate-at-alumim/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/the-village-ceiling/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/two-ballots-two-days-apart/</loc>
+  </url>
+  <url>
+    <loc>https://aryehleibtoren.com/he/writing/where-is-your-brother/</loc>
   </url>
 </urlset>
