@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v4-20261014"; // v4: Hebrew map legend names + Hebrew byline
+const VERSION = "v5-20261015"; // v5: one menu across election pages (EN + HE)
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
