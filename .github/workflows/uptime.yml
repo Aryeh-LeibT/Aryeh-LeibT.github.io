@@ -1,0 +1,141 @@
+name: Uptime monitor
+# Free uptime checks for the live site. Opens/closes GitHub issues; never touches the public pages.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: uptime-monitor
+  cancel-in-progress: false
+jobs:
+  uptime:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Check pages and TLS, then open or close issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          HOST="aryehleibtoren.com"
+          URLS=(
+            "https://${HOST}/"
+            "https://${HOST}/he/"
+            "https://${HOST}/elections/"
+            "https://${HOST}/he/writing/"
+          )
+          MIN_CERT_DAYS=14
+          FAIL_REASONS=()
+
+          check_url() {
+            local url="$1"
+            local code
+            code="$(curl -fsS --retry 3 --retry-delay 5 --retry-all-errors \
+              -o /dev/null -w "%{http_code}" --max-time 30 "$url" || true)"
+            if [[ "$code" != "200" ]]; then
+              FAIL_REASONS+=("${url} returned HTTP ${code:-curl-failed}")
+            fi
+          }
+
+          for url in "${URLS[@]}"; do
+            check_url "$url"
+          done
+
+          # TLS: certificate must remain valid for at least MIN_CERT_DAYS more days.
+          end_raw="$(echo | openssl s_client -servername "$HOST" -connect "${HOST}:443" 2>/dev/null \
+            | openssl x509 -noout -enddate 2>/dev/null || true)"
+          if [[ -z "$end_raw" || "$end_raw" != notAfter=* ]]; then
+            FAIL_REASONS+=("TLS certificate for ${HOST} could not be read")
+          else
+            end_date="${end_raw#notAfter=}"
+            end_epoch="$(date -u -d "$end_date" +%s)"
+            now_epoch="$(date -u +%s)"
+            days_left=$(( (end_epoch - now_epoch) / 86400 ))
+            if (( days_left < MIN_CERT_DAYS )); then
+              FAIL_REASONS+=("TLS certificate for ${HOST} expires in ${days_left} days (need >= ${MIN_CERT_DAYS})")
+            fi
+          fi
+
+          ensure_label() {
+            gh label create uptime \
+              --repo "$GH_REPO" \
+              --description "Site uptime monitor alerts" \
+              --color B60205 \
+              2>/dev/null || true
+          }
+
+          open_uptime_issue() {
+            local title_details="$1"
+            local details="$2"
+            local body
+            body="$(printf '%s\n' \
+              "The uptime monitor failed at $(date -u '+%Y-%m-%d %H:%M UTC')." \
+              "" \
+              "Details:" \
+              "" \
+              '```' \
+              "$details" \
+              '```' \
+              "" \
+              "Workflow: ${GITHUB_SERVER_URL}/${GH_REPO}/actions/runs/${GITHUB_RUN_ID}")"
+            ensure_label
+            gh issue create \
+              --repo "$GH_REPO" \
+              --title "Site down: ${title_details}" \
+              --label uptime \
+              --body "$body"
+          }
+
+          comment_uptime_issue() {
+            local issue="$1"
+            local details="$2"
+            local body
+            body="$(printf '%s\n' \
+              "Still failing at $(date -u '+%Y-%m-%d %H:%M UTC')." \
+              "" \
+              "Details:" \
+              "" \
+              '```' \
+              "$details" \
+              '```' \
+              "" \
+              "Workflow: ${GITHUB_SERVER_URL}/${GH_REPO}/actions/runs/${GITHUB_RUN_ID}")"
+            gh issue comment "$issue" --repo "$GH_REPO" --body "$body"
+          }
+
+          close_uptime_issue() {
+            local issue="$1"
+            gh issue comment "$issue" --repo "$GH_REPO" \
+              --body "Recovered at $(date -u '+%Y-%m-%d %H:%M UTC'). Closing this uptime alert. Workflow: ${GITHUB_SERVER_URL}/${GH_REPO}/actions/runs/${GITHUB_RUN_ID}"
+            gh issue close "$issue" --repo "$GH_REPO" --reason completed
+          }
+
+          existing="$(gh issue list --repo "$GH_REPO" --label uptime --state open --json number --jq '.[0].number // empty')"
+
+          if (( ${#FAIL_REASONS[@]} > 0 )); then
+            details="$(printf '%s; ' "${FAIL_REASONS[@]}")"
+            details="${details%; }"
+            # Keep the issue title short for GitHub's limit.
+            title_details="$details"
+            if (( ${#title_details} > 180 )); then
+              title_details="${title_details:0:177}..."
+            fi
+            if [[ -n "$existing" ]]; then
+              comment_uptime_issue "$existing" "$details"
+            else
+              open_uptime_issue "$title_details" "$details"
+            fi
+            echo "Uptime check FAILED: $details"
+            exit 1
+          fi
+
+          if [[ -n "$existing" ]]; then
+            close_uptime_issue "$existing"
+          fi
+          echo "Uptime check OK (pages 200, TLS >= ${MIN_CERT_DAYS} days)."
