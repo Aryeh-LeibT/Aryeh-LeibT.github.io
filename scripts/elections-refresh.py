@@ -26,7 +26,7 @@ def blocked(now):
 
 def validate():
     errs = []
-    for race in sorted(p for p in D.iterdir() if p.is_dir()):
+    for race in sorted(p for p in D.iterdir() if p.is_dir() and p.name != "input"):  # input/ holds election-night CSVs, not a race
         for f in ("meta", "results", "polls", "seats"):
             p = race / f"{f}.json"
             try: data = json.loads(p.read_text())
