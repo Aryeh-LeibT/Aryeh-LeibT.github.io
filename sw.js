@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v5-20261015"; // v5: one menu across election pages (EN + HE)
+const VERSION = "v7-20261016"; // v7: The Bow After the Water on the writing index
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
