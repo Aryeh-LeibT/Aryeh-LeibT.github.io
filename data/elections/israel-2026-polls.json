@@ -1,6 +1,6 @@
 {
   "election": "Elections to the 26th Knesset, 27 October 2026",
-  "updated": "2026-10-18T13:00:00+03:00",
+  "updated": "2026-10-18T13:15:00+03:00",
   "threshold_pct": 3.25,
   "seats_total": 120,
   "majority": 61,
@@ -134,6 +134,32 @@
         "Amcha Yisrael": 0
       },
       "source_url": "https://www.zman.co.il/733625/",
+      "source_url_2": "https://www.timesofisrael.com/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/"
+    },
+    {
+      "outlet": "Channel 13 News",
+      "pollster": "HaMidgam Project, Stat-Net, Askaria and HaMadad (Shmuel Rosner, Noah Slepkov)",
+      "date": "2026-10-14",
+      "published": "2026-10-14",
+      "sample": 1018,
+      "moe_pp": 3.1,
+      "in_average": true,
+      "values": {
+        "Yashar": 20,
+        "Likud": 18,
+        "B'Yachad": 12,
+        "Yisrael Beytenu": 9,
+        "The Democrats": 9,
+        "Joint List": 9,
+        "Otzma Yehudit": 8,
+        "United Torah Judaism": 8,
+        "Shas": 7,
+        "Religious Zionism–Zehut": 6,
+        "Ra'am": 6,
+        "Amcha Yisrael": 4,
+        "Reservists–Economic Party": 4
+      },
+      "source_url": "https://13tv.co.il/item/news/politics/politics/survey-905396904/",
       "source_url_2": "https://www.timesofisrael.com/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/"
     },
     {
