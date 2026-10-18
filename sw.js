@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v17-20261018"; // v17: Israel 2026 polls through 16 October
+const VERSION = "v19-20261018"; // v19: six dead citation links replaced (v18 reserved for Opening the File)
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
