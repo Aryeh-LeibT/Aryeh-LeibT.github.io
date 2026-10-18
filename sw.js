@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v13-20261018"; // v13: drop internal labels from public essays
+const VERSION = "v15-20261018"; // v15: Leaders and Dwarfs, October 2026 edition
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
