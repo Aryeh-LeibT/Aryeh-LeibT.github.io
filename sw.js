@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v22-20261018"; // v22: One Quarterback diagram + og:image (v21 essay; v20 reserved for PR #79)
+const VERSION = "v23-20261018"; // v23: OG share cards (v22 diagram; v21 essay; v20 reserved for PR #79)
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
