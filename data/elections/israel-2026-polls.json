@@ -1,6 +1,6 @@
 {
   "election": "Elections to the 26th Knesset, 27 October 2026",
-  "updated": "2026-10-14T16:30:00+03:00",
+  "updated": "2026-10-18T13:00:00+03:00",
   "threshold_pct": 3.25,
   "seats_total": 120,
   "majority": 61,
@@ -78,10 +78,64 @@
   },
   "bloc_note": "Bloc grouping follows the grouping used by the cited outlets (Channel 12, Walla, Kan 11, Maariv, Channel 13); it describes reported alignment, not a forecast of any coalition.",
   "average": {
-    "method": "Simple unweighted mean of the seat figures published by the Channel 12, Channel 14, Walla, Kan 11, Maariv and Channel 13 polls listed here. A list a poll reported below the threshold counts as 0 for that poll. This is not a vote-share model and not a Bader-Ofer projection; figures are rounded to one decimal and need not add up to 120.",
-    "polls_window": "2026-10-07/2026-10-12"
+    "method": "Simple unweighted mean of the seat figures published by the Channel 12, Channel 14, Walla, Kan 11, Maariv, Channel 13 and Zman Yisrael polls listed here. A list a poll reported below the threshold counts as 0 for that poll. This is not a vote-share model and not a Bader-Ofer projection; figures are rounded to one decimal and need not add up to 120.",
+    "polls_window": "2026-10-07/2026-10-15"
   },
   "polls": [
+    {
+      "outlet": "Maariv",
+      "pollster": "Lazar Research / Panel4All",
+      "date": "2026-10-15",
+      "fieldwork": "2026-10-14/2026-10-15",
+      "published": "2026-10-16",
+      "sample": 700,
+      "moe_pp": 3.7,
+      "in_average": true,
+      "values": {
+        "Yashar": 21,
+        "Likud": 18,
+        "B'Yachad": 13,
+        "The Democrats": 9,
+        "Yisrael Beytenu": 8,
+        "Otzma Yehudit": 8,
+        "Joint List": 8,
+        "United Torah Judaism": 8,
+        "Shas": 7,
+        "Religious Zionism–Zehut": 6,
+        "Ra'am": 6,
+        "Amcha Yisrael": 4,
+        "Reservists–Economic Party": 4
+      },
+      "source_url": "https://www.maariv.co.il/news/elections-2026/article-1377736",
+      "source_url_2": "https://www.jpost.com/israel-election-2026/article-911902"
+    },
+    {
+      "outlet": "Zman Yisrael",
+      "pollster": "Tatika Research & Media (Yossi Tatika) / Adgenda",
+      "date": "2026-10-15",
+      "fieldwork": "2026-10-14/2026-10-15",
+      "published": "2026-10-15",
+      "sample": 500,
+      "moe_pp": 4.4,
+      "in_average": true,
+      "values": {
+        "Yashar": 26,
+        "Likud": 20,
+        "B'Yachad": 11,
+        "Yisrael Beytenu": 9,
+        "Joint List": 8,
+        "Shas": 8,
+        "The Democrats": 8,
+        "United Torah Judaism": 8,
+        "Otzma Yehudit": 7,
+        "Religious Zionism–Zehut": 6,
+        "Ra'am": 5,
+        "Reservists–Economic Party": 4,
+        "Amcha Yisrael": 0
+      },
+      "source_url": "https://www.zman.co.il/733625/",
+      "source_url_2": "https://www.timesofisrael.com/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/"
+    },
     {
       "outlet": "Channel 12 News",
       "pollster": "Midgam (Mano Geva)",
