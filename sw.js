@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v20-20261018"; // v20: One Quarterback, Narrow Contracts essay
+const VERSION = "v21-20261018"; // v21: One Quarterback, Narrow Contracts essay (v20 reserved for PR #79)
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
