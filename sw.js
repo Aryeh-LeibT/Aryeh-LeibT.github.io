@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v19-20261018"; // v19: six dead citation links replaced (v18 reserved for Opening the File)
+const VERSION = "v20-20261018"; // v20: archive batch 18 Oct 2026 (on top of v19 dead-link fixes)
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
