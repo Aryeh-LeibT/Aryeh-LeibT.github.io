@@ -28,8 +28,8 @@ T = {
    below="מתחת לאחוז החסימה", table="טבלה", gaugeh="גוש", unknown="לא פורסם", rib_row="מנדטים בסקר זה"),
 }
 METHOD_HE = "ממוצע פשוט, לא משוקלל, של מספרי המנדטים שפרסם כל סקר. רשימה שסקר הציג מתחת לאחוז החסימה נספרת אצלו כ־0. זה אינו מודל של אחוזי הצבעה ואינו חלוקה לפי בדר־עופר; המספרים מעוגלים לספרה אחת אחרי הנקודה ואינם מסתכמים בהכרח ב־120."
-OUTLET_HE = {"Channel 12 News": "חדשות 12", "Maariv": "מעריב", "Channel 13 News": "חדשות 13", "Walla": "וואלה", "Kan 11 News": "כאן חדשות", "Channel 14 News": "חדשות 14"}
-POLLSTER_HE = {"Midgam (Mano Geva)": "מדגם (מנו גבע)", "Lazar Research / Panel4All": "מכון לזר / פאנל4אול", "not named in the cited reports": "לא צוין בדיווחים", "Kantar Israel": "קנטאר ישראל", "Next Data (analysis: Shlomo Filber)": "NEXT DATA (ניתוח: שלמה פילבר)", "HaMidgam Project, Stat-Net, Askaria and HaMadad (Shmuel Rosner, Noah Slepkov)": "המדד (שמואל רוזנר, נח סלפקוב) עם סטט־נט, פרויקט המדגם ואסקריא"}
+OUTLET_HE = {"Channel 12 News": "חדשות 12", "Maariv": "מעריב", "Channel 13 News": "חדשות 13", "Walla": "וואלה", "Kan 11 News": "כאן חדשות", "Channel 14 News": "חדשות 14", "Zman Yisrael": "זמן ישראל"}
+POLLSTER_HE = {"Midgam (Mano Geva)": "מדגם (מנו גבע)", "Lazar Research / Panel4All": "מכון לזר / פאנל4אול", "not named in the cited reports": "לא צוין בדיווחים", "Kantar Israel": "קנטאר ישראל", "Next Data (analysis: Shlomo Filber)": "NEXT DATA (ניתוח: שלמה פילבר)", "HaMidgam Project, Stat-Net, Askaria and HaMadad (Shmuel Rosner, Noah Slepkov)": "המדד (שמואל רוזנר, נח סלפקוב) עם סטט־נט, פרויקט המדגם ואסקריא", "Tatika Research & Media (Yossi Tatika) / Adgenda": "טאטיקה מחקרים ומדיה (יוסי טאטיקה) / אדג'נדה"}
 e = html.escape
 
 def fmtdate(s, L):
