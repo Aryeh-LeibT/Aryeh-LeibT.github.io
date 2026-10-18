@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v15-20261018"; // v15: Leaders and Dwarfs, October 2026 edition
+const VERSION = "v16-20261018"; // v16: printables index lists every public PDF
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
