@@ -17,3 +17,5 @@ jobs:
         run: python3 scripts/lint-site.py --gh
       - name: Internal link check
         run: python3 scripts/check-links.py
+      - name: Printables index
+        run: python3 scripts/check-printables.py
