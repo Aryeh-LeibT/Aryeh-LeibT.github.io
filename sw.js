@@ -17,7 +17,7 @@
 // Rule of thumb: change VERSION whenever you change the files in SHELL_FILES,
 // or whenever you want everyone to get fresh copies right away.
 
-const VERSION = "v9-20261017"; // v9: drop a removed writing page from caches
+const VERSION = "v25-20261021"; // v25: The Branded Bus and the Brit (PR #66); v24: Hebrew Leaders and Dwarfs (PR #61); v23: OG share cards (v22 diagram; v21 essay; v20 reserved for PR #79)
 
 // Two "caches" (named boxes of saved files). The names include VERSION,
 // so a new version gets fresh boxes and the old ones can be thrown away.
