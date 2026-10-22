@@ -297,7 +297,8 @@ main { animation: fade-in 400ms ease-out both; }
   unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
 }
 html:lang(he) body,
-[dir="rtl"] body {
+[dir="rtl"] body,
+.prose [dir="rtl"] {
   font-family: "Frank Ruhl Libre", Georgia, "Noto Serif Hebrew", "David", "Times New Roman", serif;
 }
 html:lang(he) h2,
