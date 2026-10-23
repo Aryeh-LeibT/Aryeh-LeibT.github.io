@@ -4,10 +4,7 @@ data/elections/israel-2026-polls.json into the EN and HE pages (between chart ma
 Re-run after any data update. No libraries, no CDNs."""
 import json, pathlib, re, html
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SRC = ROOT / "data/elections/israel-2026-polls.json"
-if not SRC.exists():  # offline during the legal pre-election poll blackout; leave the pages untouched
-    raise SystemExit(f"{SRC.relative_to(ROOT)} is missing (poll blackout?); pages left unchanged.")
-D = json.loads(SRC.read_text(encoding="utf-8"))
+D = json.loads((ROOT / "data/elections/israel-2026-polls.json").read_text(encoding="utf-8"))
 COL = {"coal": "#9a7b4f", "opp": "#2f5577", "arab": "#5f8a63", "none": "#8c8c8c", "gov": "#9a7b4f", "other": "#6f7f8f"}
 ORDER = ["coal", "none", "arab", "opp"]
 T = {
