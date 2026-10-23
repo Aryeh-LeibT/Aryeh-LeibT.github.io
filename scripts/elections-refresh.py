@@ -29,6 +29,7 @@ def validate():
     for race in sorted(p for p in D.iterdir() if p.is_dir() and p.name != "input"):  # input/ holds election-night CSVs, not a race
         for f in ("meta", "results", "polls", "seats"):
             p = race / f"{f}.json"
+            if f == "polls" and not p.exists(): continue  # polls.json may be offline (e.g. legal pre-election poll blackout)
             try: data = json.loads(p.read_text())
             except Exception as e: errs.append(f"{p}: {e}"); continue
             recs = data.get("sources", []) if f == "meta" else data.get("rows", [])
