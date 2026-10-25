@@ -2,7 +2,7 @@
  "id": "brazil-2026-map",
  "election": "Brazil presidential runoff, 25 October 2026",
  "level": "state",
- "updated_at": "2026-10-14T15:25:09+03:00",
+ "updated_at": "2026-10-25T19:07:35-03:00",
  "candidates": [
   {
    "id": "13",
@@ -27,28 +27,28 @@
    "name": "Acre",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 2017,
+     "pct": 60.9918355,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 1290,
+     "pct": 39.0081645,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 1.101321586,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ac/ac-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:01:55-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ac/ac-c0001-e006258-u.json"
   },
   "AL": {
    "name": "Alagoas",
@@ -57,25 +57,25 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 6949,
+     "pct": 61.332744925,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 4381,
+     "pct": 38.667255075,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.577383467,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/al/al-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:05-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/al/al-c0001-e006258-u.json"
   },
   "AM": {
    "name": "Amazonas",
@@ -84,25 +84,25 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 20307,
+     "pct": 50.62069997,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 19809,
+     "pct": 49.37930003,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 1.863430183,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/am/am-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:01:54-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/am/am-c0001-e006258-u.json"
   },
   "AP": {
    "name": "Amapá",
@@ -111,25 +111,25 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 4797,
+     "pct": 70.700073692,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 1988,
+     "pct": 29.299926308,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 2.194357367,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ap/ap-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:45-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ap/ap-c0001-e006258-u.json"
   },
   "BA": {
    "name": "Bahia",
@@ -138,25 +138,25 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 17226,
+     "pct": 71.521694,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 6859,
+     "pct": 28.478306,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.245236216,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ba/ba-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:44-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ba/ba-c0001-e006258-u.json"
   },
   "CE": {
    "name": "Ceará",
@@ -165,106 +165,106 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 4211,
+     "pct": 64.339190222,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 2334,
+     "pct": 35.660809778,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.100988849,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ce/ce-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:45-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ce/ce-c0001-e006258-u.json"
   },
   "DF": {
    "name": "Distrito Federal",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 103953,
+     "pct": 54.86283368,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 85525,
+     "pct": 45.13716632,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 10.862390587,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/df/df-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:06:35-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/df/df-c0001-e006258-u.json"
   },
   "ES": {
    "name": "Espírito Santo",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 1488,
+     "pct": 52.5795053,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 1342,
+     "pct": 47.4204947,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.132060138,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/es/es-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:45-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/es/es-c0001-e006258-u.json"
   },
   "GO": {
    "name": "Goiás",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 2230,
+     "pct": 55.486439413,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 1789,
+     "pct": 44.513560587,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.089251562,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/go/go-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:45-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/go/go-c0001-e006258-u.json"
   },
   "MA": {
    "name": "Maranhão",
@@ -273,106 +273,106 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 36098,
+     "pct": 70.144961331,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 15364,
+     "pct": 29.855038669,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 1.437019842,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ma/ma-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:06:35-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ma/ma-c0001-e006258-u.json"
   },
   "MG": {
    "name": "Minas Gerais",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 60256,
+     "pct": 50.423009012,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 59245,
+     "pct": 49.576990988,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.80480965,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mg/mg-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:06:36-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mg/mg-c0001-e006258-u.json"
   },
   "MS": {
    "name": "Mato Grosso do Sul",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 2352,
+     "pct": 50.689655172,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 2288,
+     "pct": 49.310344828,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.379960597,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ms/ms-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:15-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ms/ms-c0001-e006258-u.json"
   },
   "MT": {
    "name": "Mato Grosso",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 28557,
+     "pct": 56.537319343,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 21953,
+     "pct": 43.462680657,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 2.715095933,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mt/mt-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:45-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mt/mt-c0001-e006258-u.json"
   },
   "PA": {
    "name": "Pará",
@@ -381,25 +381,25 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 182123,
+     "pct": 56.941374362,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 137720,
+     "pct": 43.058625638,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 6.419551544,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pa/pa-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:35-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pa/pa-c0001-e006258-u.json"
   },
   "PB": {
    "name": "Paraíba",
@@ -408,25 +408,25 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 102428,
+     "pct": 73.704055493,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 36544,
+     "pct": 26.295944507,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 5.377147125,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pb/pb-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:35-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pb/pb-c0001-e006258-u.json"
   },
   "PE": {
    "name": "Pernambuco",
@@ -435,25 +435,25 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 11122,
+     "pct": 72.569489756,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 4204,
+     "pct": 27.430510244,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.275469231,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pe/pe-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:35-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pe/pe-c0001-e006258-u.json"
   },
   "PI": {
    "name": "Piauí",
@@ -462,79 +462,79 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 5689,
+     "pct": 78.404079383,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 1567,
+     "pct": 21.595920617,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.35207824,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pi/pi-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:34-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pi/pi-c0001-e006258-u.json"
   },
   "PR": {
    "name": "Paraná",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 194900,
+     "pct": 60.949486042,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 124873,
+     "pct": 39.050513958,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 4.638567534,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pr/pr-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:45-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pr/pr-c0001-e006258-u.json"
   },
   "RJ": {
    "name": "Rio de Janeiro",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 430,
+     "pct": 56.878306878,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 326,
+     "pct": 43.121693122,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.00796284,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rj/rj-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:45-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rj/rj-c0001-e006258-u.json"
   },
   "RN": {
    "name": "Rio Grande do Norte",
@@ -543,52 +543,52 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 14004,
+     "pct": 73.078328028,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 5159,
+     "pct": 26.921671972,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.948860136,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rn/rn-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:04-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rn/rn-c0001-e006258-u.json"
   },
   "RO": {
    "name": "Rondônia",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 5928,
+     "pct": 60.44045677,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 3880,
+     "pct": 39.55954323,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.957854406,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ro/ro-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:01:55-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ro/ro-c0001-e006258-u.json"
   },
   "RR": {
    "name": "Roraima",
@@ -597,133 +597,133 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 896,
+     "pct": 69.296210363,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 397,
+     "pct": 30.703789637,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.394996708,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rr/rr-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:01:55-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rr/rr-c0001-e006258-u.json"
   },
   "RS": {
    "name": "Rio Grande do Sul",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 16982,
+     "pct": 65.801301922,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 8826,
+     "pct": 34.198698078,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.402947689,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rs/rs-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:35-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rs/rs-c0001-e006258-u.json"
   },
   "SC": {
    "name": "Santa Catarina",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 35682,
+     "pct": 53.19716735,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 31393,
+     "pct": 46.80283265,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 1.414059795,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sc/sc-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:05:44-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sc/sc-c0001-e006258-u.json"
   },
   "SE": {
    "name": "Sergipe",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 0,
+     "pct": 0.0,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 0,
+     "pct": 0.0,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
+   "reporting_pct": 0.0,
    "status": "no results",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/se/se-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:34-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/se/se-c0001-e006258-u.json"
   },
   "SP": {
    "name": "São Paulo",
    "candidates": [
     {
+     "id": "22",
+     "name": "Flavio Bolsonaro",
+     "party": "PL",
+     "votes": 2295,
+     "pct": 56.694664032,
+     "name_he": "פלביו בולסונרו"
+    },
+    {
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 1753,
+     "pct": 43.305335968,
      "name_he": "לולה"
-    },
-    {
-     "id": "22",
-     "name": "Flávio Bolsonaro",
-     "party": "PL",
-     "votes": null,
-     "pct": null,
-     "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 0.01832986,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sp/sp-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:05-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sp/sp-c0001-e006258-u.json"
   },
   "TO": {
    "name": "Tocantins",
@@ -732,25 +732,25 @@
      "id": "13",
      "name": "Lula",
      "party": "PT",
-     "votes": null,
-     "pct": null,
+     "votes": 23566,
+     "pct": 52.659099035,
      "name_he": "לולה"
     },
     {
      "id": "22",
-     "name": "Flávio Bolsonaro",
+     "name": "Flavio Bolsonaro",
      "party": "PL",
-     "votes": null,
-     "pct": null,
+     "votes": 21186,
+     "pct": 47.340900965,
      "name_he": "פלביו בולסונרו"
     }
    ],
-   "reporting_pct": null,
-   "status": "no results",
+   "reporting_pct": 5.223540146,
+   "status": "leading",
    "called_by": null,
    "source_name": "TSE (Tribunal Superior Eleitoral)",
-   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/to/to-c0001-e006258-u.json",
-   "updated_at": "2026-10-14T15:25:09+03:00"
+   "updated_at": "2026-10-25T19:07:05-03:00",
+   "source_url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/to/to-c0001-e006258-u.json"
   }
  }
 }
