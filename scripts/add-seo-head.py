@@ -25,7 +25,8 @@ JSON-LD dates (a field is left out rather than guessed):
   Run on a full clone; a shallow clone gives wrong git dates.
   headline: the first <h1>, left out if it is missing or longer than 110 characters.
 
-Pages on HOLD below are skipped until Aryeh decides. Elections pages are never touched.
+Pages on HOLD below are skipped until Aryeh decides; pages on SHARE_HOLD get
+only canonical, hreflang and JSON-LD without description or image. Elections pages are never touched.
 Uses only Python's standard library.
 """
 import html
@@ -40,7 +41,10 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SITE = "https://aryehleibtoren.com"
 PERSON_ID = SITE + "/#person"
 DEFAULT_IMAGE = SITE + "/images/aryeh.jpg"
-HOLD = {"writing/beyond-tolerance-covenantal-pluralism.html", "writing/sedom-cannot-claim.html"}
+HOLD = set()  # pages skipped entirely until Aryeh decides (none at the moment)
+# Share tags on HOLD (no og:*/twitter:* added, and no description or image in the
+# JSON-LD) until Aryeh decides. Its meta description quotes poll sources.
+SHARE_HOLD = {"writing/count-to-sixty-one.html"}
 NOT_ESSAYS = {"writing/index.html", "writing/archive.html"}
 MONTHS = {m: i for i, m in enumerate(
     "January February March April May June July August September October November December".split(), 1)}
@@ -100,8 +104,9 @@ def process(rel, pairs, en_to_he):
     url = SITE + path_of(rel)
     desc_raw = attr(head, r'<meta name="description" content="([^"]*)"')
     new = []
+    share = rel not in SHARE_HOLD
 
-    if not he:
+    if not he and share:
         if 'rel="canonical"' not in head:
             new.append(f'<link rel="canonical" href="{url}" />')
         if "og:url" not in head:
@@ -109,7 +114,7 @@ def process(rel, pairs, en_to_he):
         if "og:description" not in head and desc_raw is not None:
             new.append(f'<meta property="og:description" content="{desc_raw}" />')
     image = attr(head, r'<meta property="og:image" content="([^"]*)"')
-    if not he:
+    if not he and share:
         slug = os.path.basename(rel)[:-5]
         card = os.path.join(ROOT, "images", "cards", f"card-{slug}.webp")
         if image is None:
@@ -137,9 +142,9 @@ def process(rel, pairs, en_to_he):
             title = " ".join(html.unescape(re.sub(r"<[^>]+>", "", h1.group(1))).split())
             if title and len(title) <= 110:
                 obj["headline"] = title
-        if desc_raw:
+        if desc_raw and share:
             obj["description"] = html.unescape(desc_raw)
-        if image:
+        if image and share:
             obj["image"] = image.replace("https://aryeh-leibt.github.io", SITE)
         dp, dm = published(text, rel), git("log", "-1", "--format=%cs", "--", rel)
         if dp:
