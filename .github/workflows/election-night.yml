@@ -63,6 +63,9 @@ jobs:
           BR="election-night/${{ steps.race.outputs.race }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # The build step rewrote $F on main's checkout; drop that copy (it is saved in /tmp/new.json)
+          # so switching to an existing data branch cannot fail with "local changes would be overwritten".
+          git checkout -- "$F" 2>/dev/null || true
           if git ls-remote --exit-code --heads origin "$BR" >/dev/null; then git fetch origin "$BR"; git checkout -B "$BR" "origin/$BR"; else git checkout -b "$BR"; fi
           cp /tmp/new.json "$F"
           if git diff --quiet -- "$F"; then echo "No change."; exit 0; fi
@@ -70,5 +73,9 @@ jobs:
           git commit -m "Election-night data $(TZ=Asia/Jerusalem date '+%d %b %H:%M') IL (${{ steps.race.outputs.race }})"
           git push origin "$BR"
           if [ -z "$(gh pr list --head "$BR" --state open --json number --jq '.[].number')" ]; then
-            gh pr create --base main --head "$BR" --title "Election-night data: ${{ steps.race.outputs.race }}" --body "Data-only update from official sources (see _docs/election-night-plan.md). Merge only after a check, with CI green, never on Shabbat or Yom Tov."
+            # If the repo does not allow Actions to open PRs, keep the pushed branch and say so instead of failing the run.
+            if ! gh pr create --base main --head "$BR" --title "Election-night data: ${{ steps.race.outputs.race }}" --body "Data-only update from official sources (see _docs/election-night-plan.md). Merge only after a check, with CI green, never on Shabbat or Yom Tov."; then
+              MSG="Data pushed to branch $BR, but Actions may not open PRs here. Open it by hand: https://github.com/${{ github.repository }}/compare/main...$BR"
+              echo "::warning::$MSG"; echo "$MSG" >> "$GITHUB_STEP_SUMMARY"
+            fi
           fi
