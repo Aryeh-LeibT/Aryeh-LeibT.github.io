@@ -71,3 +71,8 @@
   .ilc-chart svg { min-width: 560px; }
   .ilc-polls thead th { min-width: 7.5rem; }
 }
+/* Slide decks (e.g. How Votes Become Seats) */
+.deck-section { margin-block: 2.5rem; }
+.deck-slide { margin: 1rem 0; }
+.deck-slide img { display: block; width: 100%; height: auto; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.deck-slide figcaption { font-size: .85rem; opacity: .75; margin-top: .3rem; }
