@@ -18,6 +18,7 @@ Exits 1 if any check fails, so the Site rules workflow can use it.
 Run from the repo root:  python3 scripts/check-printables.py
 Uses only Python's standard library.
 """
+import re
 import os
 import sys
 from html.parser import HTMLParser
@@ -151,7 +152,7 @@ def main():
             errors.append(f"denied PDF is linked: {name}")
         low = text.lower()
         for label in LABELS:
-            if label in low:
+            if re.search(r"\b" + re.escape(label) + r"\b", low):  # whole words, so "Self-Mastery" is not a label
                 errors.append(f"internal label {label!r} in link text for {name}")
                 break
         linked.append(name)
