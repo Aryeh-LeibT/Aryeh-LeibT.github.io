@@ -45,9 +45,15 @@ HE_EN_PAIRS = {
     "/he/writing/the-village-ceiling/": "/writing/the-village-ceiling.html",
     "/he/writing/two-ballots-two-days-apart/": "/writing/two-ballots-two-days-apart.html",
     "/he/writing/where-is-your-brother/": "/writing/where-is-your-brother.html",
+    "/he/writing/al-yithalel-chacham/": "/writing/from-desolation-to-daat.html",
+    "/he/writing/ki-karov-elecha/": "/writing/the-commandment-that-stands-near.html",
+    "/he/writing/leaders-and-dwarfs-october/": "/writing/leaders-and-dwarfs-october-2026.html",
+    "/he/writing/shivat-yamim-bagvulin/": "/writing/seven-days-in-the-provinces.html",
+    "/he/writing/shtei-shirot/": "/writing/two-songs-at-one-celebration.html",
+    "/he/writing/ulmiknehu-asah-sukkot/": "/writing/yaakov-built-booths-for-his-flock.html",
 }
 # No English twin found (leave unpaired until Writing confirms):
-# /he/writing/ayeka-short/, /he/writing/leaders-and-dwarfs-october/, /he/writing/one-bus-one-big-question/
+# /he/writing/ayeka-short/, /he/writing/one-bus-one-big-question/
 
 
 def urls():
