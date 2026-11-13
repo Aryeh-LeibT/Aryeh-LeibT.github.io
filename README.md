@@ -5,9 +5,7 @@ Personal site on GitHub Pages: https://aryehleibtoren.com/
 - Home, About, Contact, Subscribe, Support the writing
 - Writing: `/writing/` is the essay hub (featured essays, with older pieces in `/writing/archive.html`)
 - Elections 2026 (`/elections-2026/`) and Torah: Tishrei & Bereishit (`/torah/`)
-- Course work from ITC First Steps stage 4 under `/stage4`
 
-Source of the class pages: `Aryeh-LeibT/portfolio_Thorne_Aryeh_stage4` (kept as its own repo).
 
 ## The course checklist's "content page"
 
