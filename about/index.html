@@ -24,24 +24,68 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "https://aryehleibtoren.com/#person",
-      "name": "Aryeh Leib Toren",
-      "alternateName": [
-        "Aryeh Toren Thorne",
-        "Aryeh Leib Thorne Toren"
-      ],
-      "url": "https://aryehleibtoren.com/",
-      "image": "https://aryehleibtoren.com/images/aryeh.jpg",
-      "homeLocation": {
-        "@type": "Place",
-        "name": "Jerusalem"
-      },
-      "sameAs": [
-        "https://x.com/ALThorne_Toren",
-        "https://aryehleibthornetoren.substack.com",
-        "https://github.com/Aryeh-LeibT/",
-        "https://stackoverflow.com/users/15724635/aryeh-toren/"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://aryehleibtoren.com/#person",
+          "name": "Aryeh Leib Thorne Toren",
+          "alternateName": [
+            "Aryeh Leib Toren",
+            "Aryeh Toren Thorne",
+            "אריה לייב תורן"
+          ],
+          "jobTitle": "Torah scholar, researcher and writer",
+          "url": "https://aryehleibtoren.com/",
+          "image": "https://aryehleibtoren.com/images/aryeh.jpg",
+          "homeLocation": {
+            "@type": "Place",
+            "name": "Jerusalem"
+          },
+          "sameAs": [
+            "https://x.com/ALThorne_Toren",
+            "https://www.linkedin.com/in/aryeh-toren-thorne-64a3a277/",
+            "https://aryehleibthornetoren.substack.com",
+            "https://github.com/Aryeh-LeibT/",
+            "https://stackoverflow.com/users/15724635/aryeh-toren/"
+          ]
+        },
+        {
+          "@type": "AboutPage",
+          "@id": "https://aryehleibtoren.com/about/#about",
+          "url": "https://aryehleibtoren.com/about/",
+          "name": "About · Aryeh Leib Thorne Toren",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://aryehleibtoren.com/#website"
+          },
+          "mainEntity": {
+            "@id": "https://aryehleibtoren.com/#person"
+          },
+          "author": {
+            "@id": "https://aryehleibtoren.com/#person"
+          },
+          "publisher": {
+            "@id": "https://aryehleibtoren.com/#person"
+          },
+          "description": "About Aryeh Leib Thorne Toren."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://aryehleibtoren.com/about/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://aryehleibtoren.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About"
+            }
+          ]
+        }
       ]
     }
     </script>
