@@ -3,7 +3,8 @@
 
 Run it from the repo root after adding an essay (on a full clone, because
 dates can fall back to git):
-    python3 scripts/build-feed.py
+    python3 scripts/build-feed.py          # rewrite feed.xml
+    python3 scripts/build-feed.py --check  # CI: exit 1 if feed.xml is stale
 
 Which essays: the on-site writing/<slug>.html links in writing/index.html,
 in the order that page lists them, first 20. Pages on HOLD in
@@ -17,6 +18,7 @@ import html
 import importlib.util
 import os
 import re
+import sys
 from datetime import datetime
 from xml.sax.saxutils import escape
 
@@ -33,7 +35,7 @@ def text_of(fragment):
     return " ".join(html.unescape(re.sub(r"<[^>]+>", "", fragment)).split())
 
 
-def main():
+def main(check=False):
     index = open(os.path.join(ROOT, "writing", "index.html"), encoding="utf-8").read()
     slugs = []
     for m in re.finditer(r'href="(?:\./|/writing/)?([a-z0-9-]+)\.html"', index):
@@ -74,10 +76,20 @@ def main():
              *items,
              "  </channel>",
              "</rss>"]
-    with open(os.path.join(ROOT, "feed.xml"), "w", encoding="utf-8") as f:
-        f.write("\n".join(lines) + "\n")
+    out = "\n".join(lines) + "\n"
+    path = os.path.join(ROOT, "feed.xml")
+    if check:
+        current = open(path, encoding="utf-8").read() if os.path.exists(path) else ""
+        if current != out:
+            print("feed.xml is stale. Run: python3 scripts/build-feed.py   and commit feed.xml")
+            return 1
+        print(f"feed.xml is current ({len(slugs)} essays)")
+        return 0
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(out)
     print(f"feed.xml: {len(slugs)} essays")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main(check="--check" in sys.argv[1:]))
