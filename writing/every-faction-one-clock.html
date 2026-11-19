@@ -29,22 +29,51 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "mainEntityOfPage": "https://aryehleibtoren.com/writing/every-faction-one-clock.html",
-      "headline": "Every Faction, One Clock",
-      "description": "The voting ended Tuesday night at 22:00.",
-      "image": "https://aryehleibtoren.com/images/og/default.png",
-      "datePublished": "2026-10-30",
-      "inLanguage": "en",
-      "author": {
-        "@type": "Person",
-        "@id": "https://aryehleibtoren.com/#person",
-        "name": "Aryeh Leib Toren",
-        "url": "https://aryehleibtoren.com/"
-      },
-      "publisher": {
-        "@id": "https://aryehleibtoren.com/#person"
-      }
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "@id": "https://aryehleibtoren.com/writing/every-faction-one-clock.html#article",
+          "mainEntityOfPage": "https://aryehleibtoren.com/writing/every-faction-one-clock.html",
+          "headline": "Every Faction, One Clock",
+          "description": "The voting ended Tuesday night at 22:00.",
+          "image": "https://aryehleibtoren.com/images/og/default.png",
+          "datePublished": "2026-10-30",
+          "inLanguage": "en",
+          "url": "https://aryehleibtoren.com/writing/every-faction-one-clock.html",
+          "isPartOf": {
+            "@id": "https://aryehleibtoren.com/#website"
+          },
+          "author": {
+            "@id": "https://aryehleibtoren.com/#person"
+          },
+          "publisher": {
+            "@id": "https://aryehleibtoren.com/#person"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://aryehleibtoren.com/writing/every-faction-one-clock.html#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://aryehleibtoren.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Writing",
+              "item": "https://aryehleibtoren.com/writing/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Every Faction, One Clock"
+            }
+          ]
+        }
+      ]
     }
     </script>
   </head>
