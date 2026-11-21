@@ -7,6 +7,13 @@
     <description>Featured essays by Aryeh Leib Thorne Toren.</description>
     <language>en</language>
     <item>
+      <title>Guarded on the Way</title>
+      <link>https://aryehleibtoren.com/writing/guarded-on-the-way.html</link>
+      <guid isPermaLink="true">https://aryehleibtoren.com/writing/guarded-on-the-way.html</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <description>This short printable fills two gaps. The learning feeds for the week of Vayetze named the haftarah and named Psalm 121 as the psalm of the week, but did not give either text.</description>
+    </item>
+    <item>
       <title>The Field and the House</title>
       <link>https://aryehleibtoren.com/writing/the-field-and-the-house.html</link>
       <guid isPermaLink="true">https://aryehleibtoren.com/writing/the-field-and-the-house.html</guid>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://aryehleibtoren.com/writing/seven-days-twenty-eight-days-and-the-number-61.html</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <description>The ballots have been counted. The next part of Israeli democracy happens in quiet rooms rather than at voting stations.</description>
-    </item>
-    <item>
-      <title>Nothing Has Happened Yet</title>
-      <link>https://aryehleibtoren.com/writing/nothing-has-happened-yet.html</link>
-      <guid isPermaLink="true">https://aryehleibtoren.com/writing/nothing-has-happened-yet.html</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Two notes from Rashi on Toldot, five verses apart: the quiet stretch made Yitzchak careless, the hard year made him work. Guard anyway, plant anyway.</description>
     </item>
   </channel>
 </rss>
